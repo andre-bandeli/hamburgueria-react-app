@@ -60,7 +60,7 @@ dom
 
 ### Suporte
 
-Em caso de dúvidas, sugestões ou melhorias, abra uma nova issue ou envie uma mensagem através de alguma de minhas redes:
+Em caso de dúvidas, sugestões ou melhorias, abra uma nova issue ou envie uma mensagem através de alguma de minhas redes
 
 - Email: andre.lbandeli@gmail.com
 - Linkedin: https://www.linkedin.com/in/andrébandeli/
