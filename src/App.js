@@ -3,6 +3,12 @@ import Navbar from "../src/components/Nav/Navbar"
 import Header from './components/header/Header';
 import CardsPromocao from './components/cards-promocao/CardsPromocao';
 import CardsFuncionamento from './components/cards-funcionamento/CardsFuncionamento';
+import CardsCardapio from './components/cards-cardapio/CardsCardapio';
+import CardAtendimento from './components/card-atendimento/CardAtendimento';
+import Clientes from './components/clientes/Clientes';
+import Publicacoes from './components/publicacoes/Publicacoes';
+import CardEntrega from './components/card-entrega/CardEntrega';
+import CardPedidos from './components/card-pedidos/CardPedidos';
 
 function App() {
   return (
@@ -11,6 +17,12 @@ function App() {
       <Header/>
       <CardsPromocao/>
       <CardsFuncionamento/>
+      <CardsCardapio/>
+      <CardAtendimento/>
+      <Clientes/>
+      <Publicacoes/>
+      <CardEntrega/>
+      <CardPedidos/>
     </div>
   );
 }

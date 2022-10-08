@@ -1,0 +1,142 @@
+
+.card-entrega {
+
+    width: 100%;
+    height: 70vh;
+    
+
+    .container {
+        width: 80%;
+        height: 80%;
+        margin: auto; margin-top: 0%;
+        display: flex;
+
+        .box-imagem {
+            width: 40%;
+            height: 308.15px;
+            margin-left: 20vh;
+            margin-top: 10vh;
+
+            background: rgba(250, 226, 203, 0.9);
+            mix-blend-mode: normal;
+            border-radius: 35px 154.077px 154.077px 35px;
+
+            img {
+                width: 371.91px;
+                height: 535.65px;
+                margin-left: 0vh;
+                margin-top: -15vh;
+            }
+        }
+
+        .box-text {
+            width: 40%;
+            height: 100%;
+
+            h2 {
+                width: 267px;
+                height: 36px;
+                margin-left: 5vh;
+                top: 3683.54px;
+
+                /* H1-32 */
+
+                font-family: 'Lilita One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 35px;
+                /* identical to box height, or 110% */
+
+                text-transform: uppercase;
+
+                /* Título */
+
+                color: rgba(29, 6, 5, 0.9);
+
+                span {
+                    width: 339.43px;
+                    height: 46.29px;
+                    left: 966.92px;
+                    top: 2314.74px;
+
+                    /* $yellow */
+
+                    background: #F59A1B;
+                    border-radius: 8.27974px;
+                }
+
+            }
+            .box {
+                width: 70%;
+                margin-left: 5vh;
+                width: 569.44px;
+                height: 90px;
+                left: 974.06px;
+                margin-top: .5vh;
+                display: flex;
+                background: #FFFFFF;
+                /* Shadow */
+
+                box-shadow: 0px 4px 40px rgba(179, 155, 132, 0.5);
+                border-radius: 10px;
+
+                .icone {
+                    width: 25%;
+                    height: 90%;
+                    margin-top: 1%;
+                    border-right: 1px solid rgba(0, 0, 0, 0.288);
+
+                    img {
+                        margin-top: 5%;
+                    }
+                }
+
+                .text {
+                    width: 75%;
+                    height: 100%;
+
+                    h2 {
+                        width: 102px;
+                        height: 22px;
+                        margin-left: 3vh;
+                        top: 3757.54px;
+                        text-align: left;
+                        /* H3-20 */
+
+                        font-family: 'Lilita One';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 22px;
+                        /* identical to box height, or 110% */
+
+                        text-transform: uppercase;
+
+                        /* Título */
+
+                        color: rgba(29, 6, 5, 0.9);
+                    }
+                    h3 {
+                        width: 90%;
+                        height: 20px;
+                        margin-left: 3vh;
+                        margin-top: 0vh;
+                        text-align: left;
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        /* identical to box height, or 120% */
+
+
+                        /* Texto */
+
+                        color: rgba(29, 6, 5, 0.69);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -122,12 +122,14 @@
 @media (max-width: 550px) {
     
 .cards-funcionamento {
+    height: 50vh;
   
     .container {
        display: inline-block;
        width: 90%;
         .col-6-red {
             width: 100%;
+            height: 40%;
 
             .img {
                 width: 0%;
