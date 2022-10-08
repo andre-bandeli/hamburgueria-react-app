@@ -19,7 +19,7 @@ const Navigation = () => {
              <div className="btn-agendar">
                 <button className='btn'>
                 <img src={whats}></img> 
-                <a href="">AGENDAR</a></button>
+                <a href="">CONTATO</a></button>
             </div>
         <NavLinks/>
         </nav>

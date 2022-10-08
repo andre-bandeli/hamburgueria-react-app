@@ -153,27 +153,20 @@
 .btn a {
     width: 59px;
     height: 26px;
-
+    
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
+    /* identical to box height, or 158% */
+    
+    
+    /* $title-black-87 */
+    
+    color: #34201F;
     margin-left: 4vh;
     text-decoration: none;
-    /* identical to box height, or 158% */
-
-
-    /* $title-black-87 */
-
-    color: #34201F;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .btn-agendar .btn a:hover {
@@ -184,7 +177,7 @@
     width: 25px;
     height: 25px;
     margin: 0;
-    margin-left: -33vh;
+    margin-left: -34vh;
     position: absolute;
 }
 
