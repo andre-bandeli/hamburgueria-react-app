@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.Navbar {
+    position: absolute;
+    width: 1920px;
+    height: 63.87px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(59, 32, 11, 0.05);
+    backdrop-filter: blur(5px);
+}
+
+.Navbar nav {
+    width: 100%;
+    height: 100%;
+    margin-top: 0vh;
+}
+
+.Navbar nav ul  {
+   height: 100%;
+   margin-top: 0vh;
+   width: 90%;
+
+}
+.Navbar nav ul li {
+    display: inline-block;
+    width: auto;
+    height: 26px;
+    left: 701.04px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    margin-left: 16px;
+    margin-top: 18.94px;
+    /* identical to box height, or 140% */
+
+
+    /* $title-black-87 */
+
+    color: #34201F;
+    
+}
+
+.Navbar nav ul li a {
+    width: 81px;
+    height: 26px;
+    left: 766.04px;
+    top: 18.94px;
+    text-decoration: none;
+
+    /* T-18 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 140% */
+
+    /* $title-black-60 */
+
+    color: #635352;
+}
+
+
+.Navbar a:hover {
+    font-weight: 600;
+}
+.Navbar .Navigation {
+    width: 70%;
+    margin: auto;
+
+}
+.Navbar .Navigation img {
+    position: absolute;
+    width: 250px;
+    height: 33px;
+    left:  350px;
+    margin-top: 17.03px;
+    cursor: pointer;
+}
+
+.Navbar .Navigation .img-rede {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left:  70.26%;
+    margin-top: 17.03px;
+    cursor: pointer;
+}
+.Navbar .MobileNavigation {
+    display: none;
+    width: 0%;
+    left: 600px;
+    height: 30px;
+    top: 0;
+}
+
+.bx-redes {
+    display: flex;
+    width: 6%;
+    height: 80%;
+    right: 500px;
+    position: absolute;
+    margin-top: .5vh;
+    border-right: 1px solid #B50B04;
+}
+
+.Navbar .Navigation .img-redes-sociais {
+
+    width: 30px;
+    height: 20px;
+    margin-top: 2vh; margin-left: 1vh;
+    cursor: pointer;
+    position: static;
+}
+
+
+
+
+.btn-agendar {
+    display: flex;
+    width: 10%;
+    height: 100%;
+    right: 250px;
+    position: absolute;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 8px;
+
+    width: 150px;
+    height: 34px;
+    left: 1322px;
+    margin-top: 14.94px;
+    border: none;
+    
+    /* $yellow */
+    
+    background: #F59A1B;
+    border-radius: 4px;
+}
+.btn a {
+    width: 59px;
+    height: 26px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 4vh;
+    text-decoration: none;
+    /* identical to box height, or 158% */
+
+
+    /* $title-black-87 */
+
+    color: #34201F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn-agendar .btn a:hover {
+    text-decoration: none;
+}
+
+.btn-agendar .btn img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    margin-left: -33vh;
+    position: absolute;
+}
+
+
+@media (max-width: 1440px) {
+    .Navbar {
+        width: 100%;
+        height: 10vh;
+    }
+    .bx-redes {
+        visibility: hidden;
+    }
+    .btn-agendar {
+        visibility: hidden;
+    }
+    .Navbar .Navigation  {
+        width: 100%;
+    }
+    .Navbar .Navigation ul {
+        width: 70%;
+        margin-left: 25vh;
+    }
+    .Navbar .Navigation ul li {
+        margin-top: 3vh;
+    }
+    .Navbar .Navigation img {
+        margin-left: -30vh;
+
+        margin-top: 2.5vh;
+    }
+    
+  
+}
+
+
+@media (max-width: 1024px) {
+    .Navbar {
+        width: 100%;
+        height: 13vh;
+    }
+    .Navbar .Navgation {
+        display: none;
+        visibility: hidden;
+    }
+    .Navbar nav ul{
+        border: none;
+    }
+    .Navbar .Navigation ul {
+        width: 50%;
+        margin-left: 20vh;
+    }
+    .Navbar .Navgation ul li a{
+        visibility: hidden;
+    }
+    .Navbar nav li {
+        visibility: hidden;
+    }
+    .Navbar .MobileNavigation {
+        display: flex;
+        height: 80vh;
+        align-items: center;
+    }
+    .Navbar .MobileNavigation .Hamburguer {
+
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        cursor: pointer;
+    }
+    .Navbar .NavLinks nav ul {
+        height: 10vh;
+    }
+    .Navbar .mob {
+        height: 100vh;
+        width: 90%;
+        top: 10vh;
+        position: fixed;
+        display: inline;
+        text-align: left;
+        margin-left: 0vh;
+        background-color: rgba(37, 192, 231, 0.938);
+    }
+    .Navbar .mob li{
+        margin: auto;
+        width: 100%;
+        margin-top: 12%;
+        margin-left: 0vh;
+        font-size: 22px;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 768px) {
+  
+   
+    .Navbar .Navigation img {
+        margin-left: -30vh;
+
+        margin-top: 4vh;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .Navbar {
+        height: 10vh;
+    }
+    .Navbar nav ul{
+        margin-left: 0;
+    }
+    .Navbar .Navigation img {
+        width: 200px;
+        margin-top: 3vh; margin-left: -35vh;
+    }
+    .Navbar .Navigation ul {
+        width: 40%;
+        margin-left: 20vh;
+    }
+
+    .Navbar .MobileNavigation .Hamburguer {
+        top: 25px;    
+    }
+
+}
+@media (max-width: 390px) {
+    .Navbar {
+        height: 12vh;
+    }
+    .Navbar nav ul{
+        margin-left: 0;
+    }
+    .Navbar .Navigation img {
+        width: 150px;
+        margin-top: 3.5vh;
+        margin-left: -37vh;
+    }
+    .Navbar .Navigation ul {
+        width: 20%;
+        margin-left: 0vh;
+    }
+}
+@media (max-width: 375px) {
+
+    .Navbar .MobileNavigation .Hamburguer {
+        top: 22px;    
+    }
+
+    .Navbar .Navigation img {
+      margin-left: -45vh;
+    }
+}
+@media (max-width: 300px) {
+
+    .Navbar .Navigation img {
+      margin-left: -50vh;
+      width: 130px;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 600px) {
+    .Navbar .MobileNavigation .Hamburguer {
+        top: 20px;    
+    }
+
+    .Navbar .Navigation img {
+      margin-top: 3vh;
+    }
+}
