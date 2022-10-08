@@ -20,23 +20,35 @@ export default function Header() {
 
       <div className="container-bx">
 
-        <div className="box">
+          <div className="box">
+              <div className="icon">
+                <img src={icone} alt="" />
+              </div>
+              <div className="text">
+                <h2>ARTESANAL</h2>
+                <h3>Nossas receitas são feitas com todo cuidado</h3>
+              </div>
+          </div>
+        
+          <div className="box">
+            <div className="icon">
+                <img src={atendimento} alt="" />
+              </div>
+              <div className="text">
+                <h2>ATENDIMENTO</h2>
+                <h3>Totalmente personalizado</h3>
+              </div>
+          </div>
 
-          <img src={icone} alt="" />
-          <h2>ARTESANAL</h2>
-          <h3>Nossas receitas são feitas com todo cuidado</h3>
-
-        </div>
-        <div className="box">
-          <img src={atendimento} alt="" />
-          <h2>ATENDIMENTO</h2>
-          <h3>Totalmente personalizado</h3>
-        </div>
-        <div className="box">
-          <img src={delivery} alt="" />
-          <h2>DELIVERY SPEED</h2>
-          <h3>Entregamos menos de 45 minutos</h3>
-        </div>
+          <div className="box">
+              <div className="icon">
+                <img src={delivery} alt="" />
+              </div>
+              <div className="text">
+                <h2>DELIVERY SPEED</h2>
+                <h3>Entregamos menos de 45 minutos</h3>
+              </div>  
+          </div>
         
       </div>
 
