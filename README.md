@@ -68,3 +68,6 @@ Em caso de dúvidas, sugestões ou melhorias, abra uma nova issue ou envie uma m
 
 ### Créditos
 
+![screenshot-1](https://user-images.githubusercontent.com/87938869/194700472-0231f006-6153-4b63-9c21-d68800bc08e9.jpg)
+![screenshot-2](https://user-images.githubusercontent.com/87938869/194700481-70e1a168-8951-43d9-a823-7092e189dcf3.jpg)
+![screenshot-3](https://user-images.githubusercontent.com/87938869/194700530-98d0bf79-fcfe-48db-a028-d2c3e51708ce.jpg)
