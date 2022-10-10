@@ -136,21 +136,31 @@
             height: 80%;
             margin: auto;
             border-radius: 0px;
+            display: flex;
             border-right: 1px solid rgba(0, 0, 0, 0.329);
 
-            img {
-                position: absolute;
-                width: 60px;
-                height: 60px;
-                margin-left: -130px;
-                margin-top: 2vh;
-                border-radius: 50%;
-                background: #FAE2CB;
+            .icon {
+                width: 30%;
+                height: 100%;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+          
+                    margin-top: 2vh;
+                    border-radius: 50%;
+                    background: #FAE2CB;
+                }
             }
+
+            .text {
+                width: 70%;
+                height: 100%;
+
 
             h2 {
                 width: auto;
-                margin-left: 12vh;
+                margin-left: 2vh;
                 top: 520.5px;
                 text-align: left;
                 /* H3-20 */
@@ -172,7 +182,7 @@
                 width: 170.06px;
                 height: 39px;
                 margin-top: -1vh;
-                margin-left: 12vh;
+                margin-left: 2vh;
                 text-align: left;
                 font-family: 'Lato';
                 font-style: normal;
@@ -187,6 +197,8 @@
                 color: rgba(29, 6, 5, 0.69);
 
                 opacity: 0.6;
+            }
+          
             }
         }
     }
@@ -274,18 +286,12 @@
         
     
             .box {
-  
+                height: 100%;
                 margin: auto;
                 border-radius: 0px;
            
     
-    
-                img {
-
-                    margin-left: -150px;
-                    margin-top: 3vh;
-
-                }
+                
     
                 h2 {
                     width: auto;
@@ -346,26 +352,7 @@
            
     
     
-                img {
-                    width: 50px;
-                    height: 50px;
-                    margin-left: -110px;
-                    margin-top: 2.5vh;
-
-                }
-    
-                h2 {
-                    width: auto;
-                    margin-left: 7vh;
-                    margin-top: 2vh;   
-                }
-                h3 {
-                
-                    margin-top: 0vh;
-                    margin-left: 7vh;
-                    font-size: 12px;
-                   
-                }
+               
             }
         }
     }
@@ -456,7 +443,7 @@
         }
     
         .container-bx {
-            width: 70%;
+            width: 80%;
             margin-top: 25vh;
             display: inline-block;
             margin-left: 5vh;
@@ -469,26 +456,24 @@
            
     
     
-                img {
-
-                    margin-left: -250px;
-                    margin-top: 1vh;
-
-                }
-    
+              .text{
                 h2 {
                     width: auto;
-                    margin-left: 15vh;
+                    margin-left: 2vh;
                     margin-top: 2vh;   
                 }
                 h3 {
                 
                     margin-top: 0vh;
-                    margin-left: 15vh;
+                    margin-left: 2vh;
                     width: 100%;
                     font-size: 18px;
                    
                 }
+
+              }
+    
+               
             }
         }
     }
@@ -577,7 +562,7 @@
 
         .box {
             width: 90%;
-            height: 13vh;
+            height: 15vh;
             margin: auto;
             border-radius: 0px;
             border: none;
@@ -585,56 +570,7 @@
             box-shadow: none;
 
 
-            img {
-                position: absolute;
-                width: 60px;
-                height: 60px;
-                margin-left: -130px;
-                margin-top: 2vh;
-                border-radius: 50%;
-                background: #FAE2CB;
-            }
-
-            h2 {
-                width: auto;
-                margin-left: 12vh;
-                top: 520.5px;
-                text-align: left;
-                /* H3-20 */
-
-                font-family: 'Lilita One';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 20px;
-            
-                /* identical to box height, or 110% */
-
-                text-transform: uppercase;
-
-                /* Título */
-
-                color: rgba(29, 6, 5, 0.9);
-            }
-            h3 {
-                width: 170.06px;
-                height: 39px;
-                margin-top: -1vh;
-                margin-left: 12vh;
-                text-align: left;
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 19px;
-                /* or 120% */
-
-
-                /* Texto */
-
-                color: rgba(29, 6, 5, 0.69);
-
-                opacity: 0.6;
-            }
+        
         }
     }
 }
@@ -651,23 +587,28 @@
       
         .container {
 
-         
+         height: 50%;
     
             h1 {
+                font-size: 45px;
+                margin-top: 5vh;
+                width: 70%;
            
             }
     
             h2 {
-          
+                width: 80%;
               
             }
     
             h3 {
-                
+                width: 80%;
+                text-align: left;
+                margin-left: 5vh;
             }
     
             .btn {
-                top: 270px;
+                top: 350px;
             }
         }
     
@@ -700,26 +641,6 @@
         
         height: 100vh;
       
-        .container {
-         
-    
-            h1 {
-              
-            }
-    
-            h2 {
-            
-              
-            }
-    
-            h3 {
-           
-            }
-    
-            .btn {
-               
-            }
-        }
     
         .container-bx {
           margin-top: 10vh;
@@ -728,13 +649,15 @@
             .box {
             
            
-    
-    
-                img {
-                    margin-left: -20vh;
-                    margin-top: 4vh;
-                 
+                .icon {
+                    img {
+     
+                        margin-top: 4vh;
+                     
+                    }
                 }
+    
+                
     
                 h2 {
                     margin-left: 19vh;
@@ -748,54 +671,3 @@
 }
 
 
-
-@media (max-width: 540px) and (max-height: 720px) {
-    .header {
-        
-       
-      
-        .container {
-         
-    
-            h1 {
-              
-            }
-    
-            h2 {
-                margin-top: -2vh;
-              
-            }
-    
-            h3 {
-                
-            }
-    
-            .btn {
-               margin-top: 14vh;
-            }
-        }
-    
-        .container-bx {
-        
-        
-    
-            .box {
-            
-           
-    
-    
-                img {
-                
-                 
-                }
-    
-                h2 {
-                    margin-left: 25vh;
-                }
-                h3 {
-                    margin-left: 25vh;
-                }
-            }
-        }
-    }
-}

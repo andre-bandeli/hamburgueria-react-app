@@ -13,12 +13,12 @@
         border-bottom: 1px solid rgba(29, 6, 5, 0.15);
 
         .box-imagem {
-            width: 40%;
+            width: 50%;
             height: 308.15px;
-            margin-left: 20vh;
-            margin-top: 10vh;
+            margin-left: 0vh;
+            top: 2239.55px;
 
-            background: rgba(241, 210, 180, 0.973);
+            background: rgba(250, 226, 203, 0.9);
             mix-blend-mode: normal;
             border-radius: 35px 154.077px 154.077px 35px;
 
@@ -27,7 +27,6 @@
                 height: 455.7px;
                 left: 415.55px;
                 margin-top: -15vh;
-                position: absolute;
                 border-radius: 2px;
             }
         }
@@ -40,7 +39,7 @@
                 width: 324.66px;
                 height: 92px;
                 margin-left: 5vh;
-                margin-top: 15vh;
+                margin-top: 5vh;
                 text-align: left;
                 font-family: 'Lilita One';
                 font-style: normal;
@@ -130,4 +129,58 @@
             }
         }
     }
+}
+
+
+
+@media (max-width: 550px) {
+    
+.card-atendimento {
+    height: auto;
+   
+
+    .container {
+      display: inline-block;
+
+        .box-imagem {  
+            width: 100%;
+            margin-top: 15vh;
+        
+
+            img {
+                width: 80%;
+            }
+        }
+
+        .box-text {
+            width: 100%;
+           margin-bottom: 10vh;
+            h2 {
+              margin-top: 10vh;
+              margin-left: 2vh;
+              width: 80%;
+
+                span {
+                  
+                }
+
+            }
+            h3 {
+                margin-left: 2vh;
+                width: 70%;
+               
+            }
+
+            button {
+                margin-left: 2vh;
+                margin-top: 10vh;
+                a {
+               
+                }
+            }
+        }
+    }
+}
+
+
 }

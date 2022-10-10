@@ -21,26 +21,26 @@ export default function CardsCardapio() {
 
           <ul>
             <h3>
-                Classic burger ......................................................................... R$49,99
+                Classic burger .............................................................. R$49,99
             </h3>
             <li>
              <h4> Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</h4>
             </li>
             <h3>
-                Classic burger ......................................................................... R$49,99
+                Classic burger .............................................................. R$49,99
             </h3>
             <li>
              <h4> Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</h4>
             </li>
             <h3>
-                Classic burger ......................................................................... R$49,99
+                Classic burger .............................................................. R$49,99
             </h3>
             <li>
              <h4> Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</h4>
             </li>
 
             <h3>
-                Classic burger ......................................................................... R$49,99
+                Classic burger .............................................................. R$49,99
             </h3>
             <li>
              <h4> Hamburguer bonino 160g, Molho, Bacon, Queijo prato, peito de peru, Tomate, Alface, Servidor do pão de batata</h4>

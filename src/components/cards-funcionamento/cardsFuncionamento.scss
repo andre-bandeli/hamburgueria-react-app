@@ -3,6 +3,7 @@
 .cards-funcionamento {
     width: 100%;
     height: 20vh;
+    margin-top: 5vh;
 
     .container {
         width: 70%;
@@ -119,10 +120,148 @@
     }
 }
 
+
+@media (max-width: 1280px) {
+    
+    .cards-funcionamento {
+        height: auto;
+       
+        .container {
+            width: 80%;
+          
+            .col-6-red {
+                width: 70%;
+    
+                .img {
+                    width: 20%;
+                    height: 80%;
+                    margin: auto;
+
+                    img {
+                        margin-top: 0vh;
+                    }
+                   
+                }
+                .text {
+                    width: 80%;
+                    h2 {
+                        width: 100%;
+                        margin-left: 5vh;
+                        font-size: 18px;
+                        text-align: left;
+                        margin-top: 2vh;
+                    }
+                    h3 {
+                        font-size: 14px;
+                        line-height: 15px;
+                        margin-left: 5vh;
+                        margin-top: 1vh;
+                    }
+                }
+                
+            }
+            .col-6 {
+               width: 30%;
+    
+                h2 {
+                    margin-left: 2vh;
+                    margin-top: 4vh;
+                    font-size: 20px;
+                }
+                h3 {
+                    width: 80%;
+                    margin-top: 4vh;
+                   margin-left: 2vh;
+                }
+            }
+        }
+    }
+    }
+
+@media (max-width: 1024px) {
+    
+    .cards-funcionamento {
+        height: auto;
+       
+        .container {
+            width: 80%;
+          
+            .col-6-red {
+                width: 70%;
+    
+                .img {
+                    width: 20%;
+                    height: 80%;
+                    margin: auto;
+
+                    img {
+                        margin-top: 0vh;
+                    }
+                   
+                }
+                .text {
+                    width: 80%;
+                    h2 {
+                        width: 100%;
+                        margin-left: 5vh;
+                        font-size: 18px;
+                        text-align: left;
+                        margin-top: 2vh;
+                    }
+                    h3 {
+                        font-size: 14px;
+                        line-height: 15px;
+                        margin-left: 5vh;
+                        margin-top: 1vh;
+                    }
+                }
+                
+            }
+            .col-6 {
+               width: 30%;
+    
+                h2 {
+                    margin-left: 2vh;
+                    margin-top: 5vh;
+                    font-size: 20px;
+                }
+                h3 {
+                    width: 80%;
+                    margin-top: 2vh;
+                   margin-left: 2vh;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+    .cards-funcionamento {
+       
+      
+        .container {
+          
+            .col-6-red {
+              
+                .text {
+                   
+                    h2, h3 {
+                        margin-left: 3vh;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
 @media (max-width: 550px) {
     
 .cards-funcionamento {
     height: 50vh;
+    margin-top: 5vh;
   
     .container {
        display: inline-block;
@@ -132,18 +271,28 @@
             height: 40%;
 
             .img {
-                width: 0%;
-                visibility: hidden;
+                width: 20%;
+                margin: auto;
+
+                img {
+                    margin-top: 5vh;
+                }
+
             }
             .text {
+                width: 80%;
                 h2 {
-                    margin-left: 1vh;
-                    font-size: 20px;
+                    margin-left: 2vh;
+                    font-size: 15px;
+                    width: 80%;
+                    margin-top: 3vh
                 }
                 h3 {
                     font-size: 14px;
                     line-height: 15px;
                     margin-top: -1vh;
+                    width: 80%;
+                    margin-left: 2vh;
                 }
             }
             
@@ -162,4 +311,72 @@
         }
     }
 }
+}
+
+@media (max-width: 420px) {
+    
+    .cards-funcionamento {
+    
+        .container {
+          
+            .col-6-red {
+              
+                .text {
+                   
+                    h2 {
+                        margin-top: 5vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 375px) {
+    
+    .cards-funcionamento {
+       
+        .container {
+          
+            .col-6-red {
+              
+                .text {
+                   
+                    h2 {
+                        margin-top: 3vh;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+@media (max-width: 280px) {
+    
+    .cards-funcionamento {
+       
+      
+        .container {
+          
+            .col-6-red {
+              
+                .text {
+                   
+                    h2{ 
+                        width: 100%;
+                        margin-left: .5vh;
+                        font-size: 14px;
+                    }
+                    h3 {
+                        margin-left: .5vh;
+                        font-size: 12px;
+                    }
+                }
+                
+            }
+        }
+    }
 }

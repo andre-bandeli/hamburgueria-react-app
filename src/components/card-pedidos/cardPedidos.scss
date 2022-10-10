@@ -7,25 +7,13 @@
     
 
     .container {
-        width: 70%;
-        height: 130.04px;
+        width: 60%;
+        height: 140px;
         margin: auto;
         background: #F43127;
         border-radius: 10px;
         display: flex;
 
-        .imagem {
-            width: 8%;
-            height: 80%;
-            margin-top: 1%; margin-left: 2vh;
-            background-color: rgba(29, 29, 27, 0.377);
-            border-radius: 50%;
-
-            img {
-                width: 35%;
-                margin-top: 20%;
-            }
-        }
         .text {
             width: 70%;
             height: 100%;
@@ -82,7 +70,7 @@
             width: 196px;
             height: 42px;
             left: 1311.64px;
-            margin-top: 3%;
+            margin-top: 4%;
             border: none;
             background: #FAE4D0;
             border-radius: 4px;
@@ -116,4 +104,145 @@
         }
 
     }
+}
+
+
+@media (max-width: 1024px) {
+    
+
+    .card-pedidos {
+        margin-top: 25vh;
+        .container {
+
+            .imagem {
+
+                width: 0%;
+                visibility: hidden;
+               
+               
+            }
+            .text {
+                
+    
+                h2 {
+                  margin-left: 3vh;
+                }
+                h3 {
+                    margin-left: 3vh;
+                }
+            }
+            button {
+               margin-top: 12vh;
+                a {
+                   
+                }
+            }
+    
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+
+    .card-pedidos {
+    
+        .container {
+            width: 90%;
+    
+            .imagem {
+                width: 0%;
+                visibility: hidden;
+    
+               
+            }
+            .text {
+                width: 100%;
+                height: 100%;
+                margin-left: 0vh;
+    
+                h2 {
+                    font-size: 22px;
+                    text-align: left;
+                    width: 80%;
+                    margin-left: 2vh;
+                }
+                h3 {
+                    width: 90%;
+                    margin-left: 2vh;
+                    font-size: 17px;
+                    line-height: 18px;
+                }
+            }
+            button {
+                position: absolute;
+                width: 35%;
+                height: 3vh;
+                margin-top: 9vh;
+                margin-left: 8vh;
+                left: 0;
+                border-radius: 10px;
+                a {
+                    width: 100%;
+                    font-size: 14px;
+                    text-align: center;
+                }
+            }
+    
+        }
+    }
+}
+@media (max-width: 550px) {
+    
+
+.card-pedidos {
+
+  
+
+    .container {
+        width: 90%;
+        height: 100%;
+
+        .imagem {
+            width: 0%;
+            visibility: hidden;
+
+           
+        }
+        .text {
+            width: 100%;
+            height: 100%;
+            margin-left: 0vh;
+
+            h2 {
+                font-size: 22px;
+                text-align: left;
+                width: 80%;
+                margin-left: 2vh;
+            }
+            h3 {
+                width: 90%;
+                margin-left: 2vh;
+                font-size: 15px;
+                margin-top: 3vh;
+                line-height: 18px;
+            }
+        }
+        button {
+            position: absolute;
+            width: 45%;
+            height: 4vh;
+            margin-top: 15vh;
+            margin-left: 20vh;
+            left: 0;
+            border-radius: 10px;
+            a {
+                width: 100%;
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+
+    }
+}
 }

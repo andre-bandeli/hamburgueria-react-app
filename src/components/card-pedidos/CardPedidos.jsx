@@ -9,9 +9,6 @@ export default function CardPedidos() {
     <div className='card-pedidos'>
 
         <div className="container">
-            <div className="imagem">
-                <img src={vetor} alt="" />
-            </div>
             <div className="text">
                 <h2>
                 faça o seu pedido agora mesmo!
