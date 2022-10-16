@@ -9,6 +9,7 @@
     top: 0px;
     background: rgba(59, 32, 11, 0.05);
     backdrop-filter: blur(5px);
+    z-index: 1;
 }
 
 .Navbar nav {

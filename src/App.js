@@ -10,6 +10,7 @@ import Publicacoes from './components/publicacoes/Publicacoes';
 import CardEntrega from './components/card-entrega/CardEntrega';
 import CardPedidos from './components/card-pedidos/CardPedidos';
 import Maps from './components/maps/Maps';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <CardEntrega/>
       <CardPedidos/>
       <Maps/>
+      <Footer/>
     </div>
   );
 }

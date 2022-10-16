@@ -7,16 +7,20 @@ import delivery from './icons/delivery.png'
 export default function Header() {
   return (
     <div className='header'>
+        <div className="container">
+          <div className="inicial-text">
+            <h3>Uma nova experiência!</h3>
+            <h1>KING <span className='spn-principal-text'>BURGUER</span></h1>
+            <h2>Para quem tem um <span className='spn-secundary-text'>Apetite de um REI!</span></h2>
 
-      <div className="container">
+            <button className="btn">
+                <a href="">Comprar Agora</a>
+            </button>
+          </div>
 
-        <h3>Uma nova experiência!</h3>
-        <h1>KING <span className='spn-principal-text'>BURGUER</span></h1>
-        <h2>Para quem tem um <span className='spn-secundary-text'>Apetite de um REI!</span></h2>
-        <button className="btn">
-           <a href="">Comprar Agora</a>
-        </button>
-      </div>
+           
+         
+        </div>
 
       <div className="container-bx">
 
@@ -40,7 +44,7 @@ export default function Header() {
               </div>
           </div>
 
-          <div className="box">
+          <div className="box" id='last-bx'>
               <div className="icon">
                 <img src={delivery} alt="" />
               </div>
