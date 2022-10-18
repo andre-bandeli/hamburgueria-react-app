@@ -1,5 +1,3 @@
-
-
 .cards-funcionamento {
     width: 100%;
     height: 20vh;
@@ -16,7 +14,7 @@
             height: 90%;
             background: #F43127;
             border-radius: 10px;
-            
+
 
             display: flex;
 
@@ -32,6 +30,7 @@
                     margin-top: 13%;
                 }
             }
+
             .text {
                 h2 {
                     width: 90%;
@@ -73,6 +72,7 @@
                 }
             }
         }
+
         .col-6 {
             width: 50%;
             height: 100%;
@@ -95,6 +95,7 @@
 
                 color: #F43127;
             }
+
             h3 {
                 text-align: left;
                 margin-left: 5vh;
@@ -122,29 +123,31 @@
 
 
 @media (max-width: 1440px) {
-    
+
     .cards-funcionamento {
         height: auto;
-       
+
         .container {
             width: 80%;
-          
+
             .col-6-red {
                 width: 70%;
-    
+
                 .img {
-             
+
                     margin: auto;
 
                     img {
                         width: 60px;
                         margin-top: 0vh;
                     }
-                   
+
                 }
+
                 .text {
                     width: 80%;
                     margin-bottom: 3vh;
+
                     h2 {
                         width: 100%;
                         margin-left: 5vh;
@@ -152,46 +155,49 @@
                         text-align: left;
                         margin-top: 2vh;
                     }
+
                     h3 {
                         font-size: 14px;
                         line-height: 15px;
                         margin-left: 5vh;
                         margin-top: 1vh;
-                        
+
                     }
                 }
-                
+
             }
+
             .col-6 {
-               width: 30%;
-    
+                width: 30%;
+
                 h2 {
                     margin-left: 2vh;
                     margin-top: 3vh;
                     font-size: 20px;
                 }
+
                 h3 {
                     width: 80%;
                     margin-top: 3vh;
-                   margin-left: 2vh;
+                    margin-left: 2vh;
                 }
             }
         }
     }
-    }
+}
 
 @media (max-width: 1024px) {
-    
+
     .cards-funcionamento {
         height: auto;
-       
+
         .container {
             width: 80%;
             height: auto;
-          
+
             .col-6-red {
                 width: 70%;
-    
+
                 .img {
                     width: 20%;
                     height: 80%;
@@ -200,16 +206,19 @@
                     img {
                         margin-top: 0vh;
                     }
-                   
+
                 }
+
                 .text {
                     width: 80%;
+
                     h2 {
                         width: 80%;
                         font-size: 18px;
                         text-align: left;
                         margin-top: 2vh;
                     }
+
                     h3 {
                         width: 80%;
                         font-size: 14px;
@@ -218,20 +227,22 @@
                         margin-top: 0vh;
                     }
                 }
-                
+
             }
+
             .col-6 {
-               width: 30%;
-    
+                width: 30%;
+
                 h2 {
                     margin-left: 2vh;
                     margin-top: 5vh;
                     font-size: 20px;
                 }
+
                 h3 {
                     width: 80%;
                     margin-top: 2vh;
-                   margin-left: 2vh;
+                    margin-left: 2vh;
                 }
             }
         }
@@ -240,104 +251,112 @@
 
 
 @media (max-width: 768px) {
-    
+
     .cards-funcionamento {
-       
-      
+
+
         .container {
-          
+
             .col-6-red {
-              
+
                 .text {
                     margin-bottom: 3vh;
-                   
+
                     h2 {
                         margin-left: 2vh;
                         font-size: 16px;
                     }
+
                     h3 {
                         margin-left: 2vh;
                         margin-top: 1vh;
                     }
                 }
-                
+
             }
         }
     }
 }
 
 @media (max-width: 550px) {
-    
-.cards-funcionamento {
-    height: 50vh;
-    margin-top: 5vh;
-  
-    .container {
-       display: inline-block;
-       width: 90%;
-        .col-6-red {
-            width: 100%;
-            height: 40%;
 
-            .img {
-                width: 20%;
-                margin: auto;
+    .cards-funcionamento {
+        height: 50vh;
+        margin-top: 5vh;
 
-                img {
-                    margin-top: 1vh;
+        .container {
+            display: inline-block;
+            width: 90%;
+
+            .col-6-red {
+                width: 100%;
+                height: 40%;
+
+                .img {
+                    width: 20%;
+                    margin: auto;
+
+                    img {
+                        margin-top: 1vh;
+                    }
+
+                }
+
+                .text {
+                    width: 80%;
+                    margin-bottom: 2vh;
+
+                    h2 {
+                        margin-left: 2vh;
+                        font-size: 18px;
+                        width: 80%;
+                        margin-top: 2vh
+                    }
+
+                    h3 {
+                        font-size: 15px;
+                        line-height: 15px;
+                        margin-top: 2vh;
+                        width: 80%;
+                        margin-left: 2vh;
+                    }
                 }
 
             }
-            .text {
-                width: 80%;
-                margin-bottom: 2vh;
+
+            .col-6 {
+                width: 100%;
+
                 h2 {
                     margin-left: 2vh;
-                    font-size: 18px;
-                    width: 80%;
-                    margin-top: 2vh
+                    margin-top: 4vh;
                 }
+
                 h3 {
-                    font-size: 15px;
-                    line-height: 15px;
-                    margin-top: 2vh;
                     width: 80%;
                     margin-left: 2vh;
                 }
-            }
-            
-        }
-        .col-6 {
-           width: 100%;
-
-            h2 {
-                margin-left: 2vh;
-                margin-top: 4vh;
-            }
-            h3 {
-                width: 80%;
-               margin-left: 2vh;
             }
         }
     }
 }
-}
 
 @media (max-width: 420px) {
-    
+
     .cards-funcionamento {
-    
+
         .container {
-          
+
             .col-6-red {
-              
+
                 .text {
                     margin-bottom: 4vh;
-                   
+
                     h2 {
                         margin-top: 2vh;
                         font-size: 16px;
                     }
+
                     h3 {
                         margin-top: 1vh;
                     }
@@ -349,24 +368,25 @@
 
 
 @media (max-width: 375px) {
-    
+
     .cards-funcionamento {
-       
+
         .container {
-          
+
             .col-6-red {
-              
+
                 .text {
-                   
+
                     h2 {
                         width: 90%;
                         margin-top: 3vh;
                     }
+
                     h3 {
                         margin-top: 1vh;
                     }
                 }
-                
+
             }
         }
     }
@@ -374,27 +394,28 @@
 
 
 @media (max-width: 280px) {
-    
+
     .cards-funcionamento {
-       
-      
+
+
         .container {
-          
+
             .col-6-red {
-              
+
                 .text {
-                   
-                    h2{ 
+
+                    h2 {
                         width: 100%;
                         margin-left: .5vh;
                         font-size: 14px;
                     }
+
                     h3 {
                         margin-left: .5vh;
                         font-size: 12px;
                     }
                 }
-                
+
             }
         }
     }

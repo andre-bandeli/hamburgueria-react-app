@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 .clientes {
 
     width: 100%;
@@ -29,6 +28,7 @@
         color: rgba(29, 6, 5, 0.9);
 
     }
+
     h3 {
         width: 470px;
         height: 23px;
@@ -80,15 +80,15 @@
                 margin: auto;
                 height: 50%;
 
-                
+
                 h3 {
                     width: 90%;
                     text-align: left;
                     margin: auto;
                     margin-top: 4vh;
-                    
+
                     /* T-16 */
-                    
+
                     font-family: 'Lato';
                     font-style: normal;
                     text-align: left;
@@ -96,10 +96,10 @@
                     font-size: 18px;
                     line-height: 28px;
                     /* or 140% */
-                    
-                    
+
+
                     /* $title-black-60 */
-                    
+
                     color: #635352;
                 }
             }
@@ -115,57 +115,60 @@
                     height: 100%;
                     margin-left: 2vh;
 
-         
+
                     img {
                         width: 80%;
                         height: 70%;
-                        margin: auto; margin-top: 1vh;
+                        margin: auto;
+                        margin-top: 1vh;
                     }
-    
-                   
+
+
                 }
+
                 .text-inf {
                     width: 70%;
                     height: 100%;
 
                     h4 {
                         /* H4-18 */
-        
+
                         font-family: 'Lilita One';
                         font-style: normal;
                         font-weight: 400;
                         font-size: 18px;
                         line-height: 25px;
                         /* identical to box height, or 140% */
-        
+
                         text-transform: uppercase;
                         text-align: left;
                         margin-top: 1vh;
                         /* Título */
-        
+
                         color: rgba(29, 6, 5, 0.973);
                     }
-                   h5 {
 
-        
+                    h5 {
+
+
                         /* H4-18 */
                         font-family: 'Lato';
                         text-align: left;
                         margin-top: 1vh;
                         /* identical to box height, or 140% */
-        
+
                         text-transform: uppercase;
-        
+
                         /* Título */
-        
+
                         color: rgba(29, 6, 5, 0.973);
                     }
                 }
-                
+
 
             }
-         
-            
+
+
         }
     }
 }
@@ -178,16 +181,14 @@
         h2 {
             margin-left: 8vh;
         }
+
         h3 {
             margin-left: 13vh;
         }
 
-        .container {
-         
-          
-        }
+        .container {}
     }
-    
+
 }
 
 
@@ -200,18 +201,17 @@
             text-align: center;
             margin: auto;
         }
+
         h3 {
 
             width: 100%;
             text-align: center;
             margin: auto;
         }
-        .container {
-         
 
-        }
+        .container {}
     }
-    
+
 }
 
 @media (max-width: 550px) {
@@ -221,8 +221,8 @@
         height: 50vh;
 
 
-        .container {   
-            width: 100%;         
+        .container {
+            width: 100%;
             height: 50vh;
             margin-top: 5vh;
 
@@ -231,8 +231,9 @@
 
                 .box-inferior {
                     margin-top: 3vh;
+
                     .imagem {
-                        
+
                         img {
                             width: 80%;
                             height: 50%;
@@ -240,11 +241,11 @@
                     }
                 }
             }
-          
+
         }
     }
-    
-    
+
+
 }
 
 
@@ -254,23 +255,22 @@
         height: 60vh;
 
 
-        .container {   
+        .container {
             height: 60vh;
 
             .box {
                 height: 48vh;
 
                 .box-inferior {
-                  margin-top: 7vh;
+                    margin-top: 7vh;
+
                     .imagem {
-                        
-                        img {
-                         
-                        }
+
+                        img {}
                     }
                 }
             }
-          
+
         }
     }
 }
@@ -281,23 +281,22 @@
         height: 75vh;
 
 
-        .container {   
+        .container {
             height: 70vh;
 
             .box {
                 height: 65vh;
 
                 .box-inferior {
-                  margin-top: 7vh;
+                    margin-top: 7vh;
+
                     .imagem {
-                        
-                        img {
-                         
-                        }
+
+                        img {}
                     }
                 }
             }
-          
+
         }
     }
 }

@@ -1,5 +1,3 @@
-
-
 .cards-cardapio {
     width: 100%;
     height: 60vh;
@@ -33,45 +31,46 @@
                 font-size: 35px;
                 line-height: 46px;
                 /* or 110% */
-    
+
                 text-transform: uppercase;
-    
+
                 color: #3B200B;
-    
+
                 .spn-text {
                     width: 259.08px;
                     height: 46.29px;
 
                     top: 1673.04px;
-    
+
                     /* $yellow */
-    
+
                     background: #F59A1B;
                     border-radius: 8.27974px;
                 }
-    
+
             }
+
             h3 {
                 width: 80%;
                 height: 45px;
                 margin-top: 2vh;
                 text-align: left;
-    
+
                 /* T-16 */
-    
+
                 font-family: 'Lato';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 22px;
                 /* or 140% */
-    
-    
+
+
                 /* Texto */
-    
+
                 color: rgba(29, 6, 5, 0.69);
             }
-    
+
             .btn-cardapio {
                 display: flex;
                 flex-direction: row;
@@ -81,13 +80,13 @@
                 margin-top: 5vh;
                 width: 220px;
                 height: 43.86px;
-    
+
                 /* $red */
-    
+
                 background: #F43127;
                 border: none;
                 border-radius: 5.21535px;
-    
+
                 a {
                     width: 100%;
                     height: 23px;
@@ -98,14 +97,14 @@
                     font-size: 16px;
                     line-height: 22px;
                     /* identical to box height, or 140% */
-    
+
                     text-align: center;
-    
+
                     color: #FFFFFF;
-    
-    
+
+
                     /* Inside auto layout */
-    
+
                     flex: none;
                     order: 0;
                     flex-grow: 0;
@@ -116,6 +115,7 @@
 
 
     }
+
     .col-6 {
         width: 50%;
         height: 100%;
@@ -132,7 +132,7 @@
                 height: 100%;
                 margin: auto;
 
-    
+
                 li {
                     list-style: none;
                     width: 100%;
@@ -144,40 +144,41 @@
                         height: auto;
                         text-align: left;
                         top: 1568.36px;
-        
+
                         /* H3-20 */
-        
+
                         font-family: 'Lilita One';
                         font-style: normal;
                         font-weight: 400;
                         font-size: 20px;
                         line-height: 22px;
                         /* identical to box height, or 110% */
-        
+
                         text-transform: uppercase;
-        
+
                         color: #FAE4D0;
                     }
+
                     h4 {
                         width: 470px;
                         height: 45px;
                         top: 1594.36px;
                         text-align: left;
                         /* T-16 */
-        
+
                         font-family: 'Lato';
                         font-style: normal;
                         font-weight: 400;
                         font-size: 16px;
                         line-height: 22px;
                         /* or 140% */
-        
-        
+
+
                         color: rgba(255, 255, 255, 0.9);
                     }
                 }
-    
-                
+
+
             }
         }
 
@@ -214,9 +215,9 @@
         width: 100%;
         height: 70vh;
         margin-top: 5vh;
-    
+
         .col-6-img {
-           
+
             background-image: url(./back-cardapio-white.png);
             background-position: center;
             background-size: cover;
@@ -228,24 +229,26 @@
                 margin-left: 10%;
             }
         }
+
         .col-6 {
-           
+
             h2 {
                 width: 80%;
                 margin-left: 3vh;
- 
+
             }
+
             .container {
-             
-    
+
+
                 ul {
-                    
+
                     li {
 
-                      h4 {
-                        width: 90%;
-                        margin-top: 3vh;
-                      }
+                        h4 {
+                            width: 90%;
+                            margin-top: 3vh;
+                        }
                     }
                 }
             }
@@ -259,7 +262,7 @@
         height: auto;
 
         .col-6-img {
-        
+
 
             .text {
                 width: 80%;
@@ -272,9 +275,11 @@
                     font-size: 45px;
                     line-height: 60px;
                 }
+
                 h3 {
                     margin-top: 15vh;
                 }
+
                 .btn-cardapio {
                     margin-top: 5vh;
                 }
@@ -282,20 +287,21 @@
         }
 
         .col-6 {
-           height: 60vh;
+            height: 60vh;
+
             h2 {
-               max-width: 100%;
-               margin-top: 2vh;
-               margin-left: 3vh;
-               font-size: 25px;
+                max-width: 100%;
+                margin-top: 2vh;
+                margin-left: 3vh;
+                font-size: 25px;
             }
 
             ul {
                 width: 90%;
                 height: 100%;
                 margin: auto;
-                
-                
+
+
                 li {
                     width: 90%;
                     height: auto;
@@ -312,7 +318,7 @@
                     }
                 }
             }
-    
+
         }
     }
 }
@@ -320,8 +326,8 @@
 
 @media (max-width: 768px) {
     .cards-cardapio {
-     
-    
+
+
         .col-6-img {
 
             .text {
@@ -332,17 +338,20 @@
 
                 h2 {
                     width: 80%;
-                 }
-                 h3 {
-                     margin-top: 15vh;
-                 }
+                }
+
+                h3 {
+                    margin-top: 15vh;
+                }
             }
-        
-    
+
+
         }
+
         .col-6 {
             height: auto;
             width: 50%;
+
             h2 {
                 font-size: 20px;
             }
@@ -352,9 +361,9 @@
                     height: 100%;
                     width: 90%;
 
-                    
+
                     li {
-    
+
                         width: 90%;
                         height: 15vh;
                         margin-top: 4vh;
@@ -364,8 +373,8 @@
                             margin-top: 2vh;
                             font-size: 15px;
                         }
-    
-    
+
+
                         h4 {
                             max-width: 90%;
                             font-size: 14px;
@@ -386,14 +395,14 @@
         margin-top: 0vh;
         height: 75vh;
         display: inline-block;
-    
+
         .col-6-img {
             width: 100%;
             height: 60%;
             background-color: tomato;
             background-image: url(./back-cardapio-white.png);
-            
-    
+
+
             img {
                 width: auto;
             }
@@ -407,11 +416,13 @@
                     font-size: 25px;
                     line-height: 30px;
                 }
+
                 h3 {
                     width: 80%;
                     margin-left: 2vh;
                     margin-top: 0vh;
                 }
+
                 .btn-cardapio {
                     margin-left: 2vh;
                     margin-top: 5vh;
@@ -419,9 +430,10 @@
                 }
             }
 
-           
-    
+
+
         }
+
         .col-6 {
             width: 100%;
             height: 90vh;
@@ -452,8 +464,8 @@
 
 @media (max-width: 400px) {
     .cards-cardapio {
-       
-    
+
+
         .col-6 {
             height: 100vh;
 
@@ -466,7 +478,7 @@
                         height: auto;
                         margin-top: 7vh;
                     }
-                 
+
 
                 }
 
@@ -477,8 +489,8 @@
 
 @media (max-width: 375px) {
     .cards-cardapio {
-       
-    
+
+
         .col-6 {
             height: 120vh;
 
@@ -491,7 +503,7 @@
                         height: auto;
                         margin-top: 7vh;
                     }
-                 
+
 
                 }
 
