@@ -27,9 +27,9 @@
                 border-right: 1px solid black;
 
                 img {
-                    width: 60%;
+                    width: 90px;
                     margin: auto;
-                    margin-top: 10%;
+                    margin-top: 13%;
                 }
             }
             .text {
@@ -59,7 +59,7 @@
                     width: 321.96px;
                     height: 23px;
                     margin-left: 4vh;
-                    top: 1329.66px;
+                    margin-top: 1.5vh;
                     text-align: left;
                     font-family: 'Lato';
                     font-style: normal;
@@ -86,7 +86,7 @@
                 font-weight: 400;
                 font-size: 28.0202px;
                 line-height: 28px;
-                margin-top: -1vh;
+                margin-top: 1vh;
                 /* or 100% */
 
                 text-transform: uppercase;
@@ -121,7 +121,7 @@
 }
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
     
     .cards-funcionamento {
         height: auto;
@@ -133,17 +133,18 @@
                 width: 70%;
     
                 .img {
-                    width: 20%;
-                    height: 80%;
+             
                     margin: auto;
 
                     img {
+                        width: 60px;
                         margin-top: 0vh;
                     }
                    
                 }
                 .text {
                     width: 80%;
+                    margin-bottom: 3vh;
                     h2 {
                         width: 100%;
                         margin-left: 5vh;
@@ -156,6 +157,7 @@
                         line-height: 15px;
                         margin-left: 5vh;
                         margin-top: 1vh;
+                        
                     }
                 }
                 
@@ -165,12 +167,12 @@
     
                 h2 {
                     margin-left: 2vh;
-                    margin-top: 4vh;
+                    margin-top: 3vh;
                     font-size: 20px;
                 }
                 h3 {
                     width: 80%;
-                    margin-top: 4vh;
+                    margin-top: 3vh;
                    margin-left: 2vh;
                 }
             }
@@ -185,6 +187,7 @@
        
         .container {
             width: 80%;
+            height: auto;
           
             .col-6-red {
                 width: 70%;
@@ -202,17 +205,17 @@
                 .text {
                     width: 80%;
                     h2 {
-                        width: 100%;
-                        margin-left: 5vh;
+                        width: 80%;
                         font-size: 18px;
                         text-align: left;
                         margin-top: 2vh;
                     }
                     h3 {
+                        width: 80%;
                         font-size: 14px;
                         line-height: 15px;
                         margin-left: 5vh;
-                        margin-top: 1vh;
+                        margin-top: 0vh;
                     }
                 }
                 
@@ -246,9 +249,15 @@
             .col-6-red {
               
                 .text {
+                    margin-bottom: 3vh;
                    
-                    h2, h3 {
-                        margin-left: 3vh;
+                    h2 {
+                        margin-left: 2vh;
+                        font-size: 16px;
+                    }
+                    h3 {
+                        margin-left: 2vh;
+                        margin-top: 1vh;
                     }
                 }
                 
@@ -275,22 +284,23 @@
                 margin: auto;
 
                 img {
-                    margin-top: 5vh;
+                    margin-top: 1vh;
                 }
 
             }
             .text {
                 width: 80%;
+                margin-bottom: 2vh;
                 h2 {
                     margin-left: 2vh;
-                    font-size: 15px;
+                    font-size: 18px;
                     width: 80%;
-                    margin-top: 3vh
+                    margin-top: 2vh
                 }
                 h3 {
-                    font-size: 14px;
+                    font-size: 15px;
                     line-height: 15px;
-                    margin-top: -1vh;
+                    margin-top: 2vh;
                     width: 80%;
                     margin-left: 2vh;
                 }
@@ -322,9 +332,14 @@
             .col-6-red {
               
                 .text {
+                    margin-bottom: 4vh;
                    
                     h2 {
-                        margin-top: 5vh;
+                        margin-top: 2vh;
+                        font-size: 16px;
+                    }
+                    h3 {
+                        margin-top: 1vh;
                     }
                 }
             }
@@ -344,7 +359,11 @@
                 .text {
                    
                     h2 {
+                        width: 90%;
                         margin-top: 3vh;
+                    }
+                    h3 {
+                        margin-top: 1vh;
                     }
                 }
                 

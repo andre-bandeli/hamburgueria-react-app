@@ -1,6 +1,6 @@
 import React from 'react'
 import './cardEntrega.scss'
-import imagem from './smartphone.png'
+import imagem from './imagem-fundo.png'
 
 import sobremesa from './icones/sobremesa.png'
 import whats from './icones/whats.png'

@@ -23,10 +23,10 @@ function App() {
       <CardAtendimento/>
       <Clientes/>
       <Publicacoes/>
-      <CardEntrega/>
+      <CardEntrega/> 
       <CardPedidos/>
       <Maps/>
-      <Footer/>
+      <Footer/> 
     </div>
   );
 }

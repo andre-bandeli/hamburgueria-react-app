@@ -27,10 +27,9 @@
 
     }
     h3 {
-        width: 100%;
+        width: 90%;
         height: 23px;
-        left: 645px;
-        top: 3248.54px;
+        margin: auto;
 
         /* T-16 */
 
@@ -51,8 +50,9 @@
     .container {
         width: 100%;
         height: 30vh;
-        background-color: black;
+        margin-top: 5vh;
         display: flex;
+        flex-wrap: wrap;
 
         .box {
             width: 16.66%;
@@ -71,7 +71,7 @@
         width: 100%;
         height: 5vh;
         left: 0px;
-        margin-top: -2vh;
+        margin-top: 0vh;
 
         /* $yellow */
 
@@ -108,9 +108,31 @@
 @media (max-width: 1440px) {
     
     .publicacoes {
-      
+        height: 110vh;
         h3 {
          
+        }
+
+        .container {
+            width: 100%;
+            height: auto;
+            margin-top: 5vh;
+            display: flex;
+            flex-wrap: wrap;
+    
+            .box {
+                width: 33.3%;
+                height: 100%;
+                margin: auto;
+    
+                img {
+                    margin: auto;
+                    width: 99%;
+                    height: 95%;
+                    border-radius: 15px;
+                }
+            }
+           
         }
 
         .span {
@@ -144,10 +166,53 @@
     }
 }
 
+@media (max-width: 768px) {
+    
+    .publicacoes {
+
+
+        h3 {
+            margin-top: 2vh;
+            font-size: 18px;
+        }
+        
+
+        .container {
+            margin-top: 10vh;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: transparent;
+            height: 20vh;
+
+            .box {
+                width: 50%;
+                height: 25vh;
+
+            
+
+                img {
+                    width: 95%;
+                    height: 95%;
+                    border-radius: 15px;
+                }
+            }
+        
+        }
+        .span {
+            width: 0%;
+            visibility: hidden;
+        }
+
+    }
+}
 @media (max-width: 550px) {
     
     .publicacoes {
+
         margin-top: 20vh;
+        
     
         h3 {
         margin-top: 5vh;
@@ -159,15 +224,19 @@
             height: auto;
             display: flex;
             flex-wrap: wrap;
+            background-color: transparent;
+            height: 20vh;
 
             .box {
                 width: 50%;
-                height: 30vh;
+                height: 20vh;
+
             
 
                 img {
-                    width: 100%;
-                    height: 100%;
+                    width: 95%;
+                    height: 95%;
+                    border-radius: 15px;
                 }
             }
         

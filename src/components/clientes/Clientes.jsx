@@ -29,55 +29,84 @@ export default function Clientes() {
           <div className='box'>
             <h2>"</h2>
             <div className="text">
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci sunt, repudiandae totam
-               eveniet minima pariatur fuga atque placeat rem quam vel, nisi beatae ratione sit labore numquam asperiores corporis!</h3>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci sunt, repudiandae totam
+                  eveniet minima pariatur fuga atque placeat rem quam vel, nisi beatae ratione sit labore numquam asperiores corporis!</h3>
             </div>
-            <div className="imagem">
-             <img src={cliente} alt="" />
+            <div className="box-inferior">
+                <div className="imagem">
+                    <img src={cliente} alt="" />
+                </div>
+                <div className="text-inf">
+                    <h4>Carla gomes</h4>
+                    <h5>23 Anos • Designer</h5>
+                </div>
             </div>
-            <h4>Carla gomes</h4>
+            
+           
 
           </div>
 
           <div className='box'>
-              <h2>"</h2>
-                <div className="text">
+            <h2>"</h2>
+            <div className="text">
                 <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci sunt, repudiandae totam
                   eveniet minima pariatur fuga atque placeat rem quam vel, nisi beatae ratione sit labore numquam asperiores corporis!</h3>
-                </div>
+            </div>
+            <div className="box-inferior">
                 <div className="imagem">
-                  <img src={cliente} alt="" />
+                    <img src={cliente} alt="" />
                 </div>
-                <h4>Carla gomes</h4>
+                <div className="text-inf">
+                    <h4>Carla gomes</h4>
+                    <h5>23 Anos • Designer</h5>
+                </div>
+            </div>
+            
+           
 
           </div>
+
 
           <div className='box'>
-              <h2>"</h2>
-                <div className="text">
+            <h2>"</h2>
+            <div className="text">
                 <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci sunt, repudiandae totam
                   eveniet minima pariatur fuga atque placeat rem quam vel, nisi beatae ratione sit labore numquam asperiores corporis!</h3>
-                </div>
+            </div>
+            <div className="box-inferior">
                 <div className="imagem">
-                  <img src={cliente} alt="" />
-              </div>
-              <h4>Carla gomes</h4>
+                    <img src={cliente} alt="" />
+                </div>
+                <div className="text-inf">
+                    <h4>Carla gomes</h4>
+                    <h5>23 Anos • Designer</h5>
+                </div>
+            </div>
+            
+           
 
           </div>
+
 
           <div className='box'>
-              <h2>"</h2>
-                <div className="text">
+            <h2>"</h2>
+            <div className="text">
                 <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci sunt, repudiandae totam
                   eveniet minima pariatur fuga atque placeat rem quam vel, nisi beatae ratione sit labore numquam asperiores corporis!</h3>
-                </div>
+            </div>
+            <div className="box-inferior">
                 <div className="imagem">
-                   <img src={cliente} alt="" />
+                    <img src={cliente} alt="" />
                 </div>
-                <h4>Carla gomes</h4>
-              
-          </div>
+                <div className="text-inf">
+                    <h4>Carla gomes</h4>
+                    <h5>23 Anos • Designer</h5>
+                </div>
+            </div>
+            
+           
 
+          </div>
          
    
           </ReactElasticCarousel>

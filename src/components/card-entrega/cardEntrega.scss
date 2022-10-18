@@ -13,17 +13,13 @@
         display: flex;
 
         .box-imagem {
-            width: 30%;
+            width: 40%;
             height: 308.15px;
-            margin-left: 20vh;
+            margin-left: 10vh;
             margin-top: 10vh;
 
-            background: rgba(250, 226, 203, 0.9);
-            mix-blend-mode: normal;
-            border-radius: 35px 154.077px 154.077px 35px;
-
             img {
-                width: 371.91px;
+                width: 100%;
                 height: 535.65px;
                 margin-left: 0vh;
                 margin-top: -15vh;
@@ -38,8 +34,6 @@
                 width: 267px;
                 height: 36px;
                 margin-left: 5vh;
-                top: 3683.54px;
-
                 /* H1-32 */
 
                 font-family: 'Lilita One';
@@ -101,7 +95,7 @@
                         width: 102px;
                         height: 22px;
                         margin-left: 3vh;
-                        top: 3757.54px;
+                        margin-top: 2vh;
                         text-align: left;
                         /* H3-20 */
 
@@ -142,40 +136,35 @@
     }
 }
 
-
-
-@media (max-width: 550px) {
+@media (max-width: 1440px) {
     
+
     .card-entrega {
-        height: 100vh;
-        margin-top: 60vh;
+       margin-top: 20vh;
         .container {
-            display: inline-block;
+            width: 100%;
+            margin: auto;
+
 
             .box-imagem {
-                width: 100%;
-                margin-left: 0vh;
+                margin-left: 5vh; margin-right: auto;
                 img {
-                    width: 100%;
-                    margin-left: 0vh;
-                    left: 0;
+              
                 }
             }
 
             .box-text {
-                width: 100%;
-                margin: auto; margin-top: 25vh;
-
+                margin: auto;
+                margin-left: -20vh;
                 h2 {
-                    
+                  
                     span {
                     
                     }
 
                 }
                 .box {
-                    width: 100%;
-                    margin-left: 0vh;
+                  
                     .icone {
                     
 
@@ -188,11 +177,189 @@
                     
 
                         h2 {
+                          
+                        }
+                        h3 {
                             
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+    
+    .card-entrega {
+       
+        .container {
+            width: 100%;
+
+            .box-imagem {
+                width: 60%;
+                margin-left: 5vh;
+                img {
+              
+                }
+            }
+
+            .box-text {
+                width: 70%;
+                margin-left: auto;
+                h2 {
+                  
+                    span {
+                    
+                    }
+
+                }
+                .box {
+                    width: 80%;
+                    .icone {
+                    
+
+                        img {
+                            
+                        }
+                    }
+
+                    .text {
+                    
+
+                        h2 {
+                          
+                        }
+                        h3 {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .card-entrega {
+       
+        .container {
+            width: 90%;
+
+            .box-imagem {
+    
+                margin-left: 0vh;
+                img {
+                width: 250px;
+                height: 350px;
+                margin-top: -10vh;
+                margin-left: 0vh;
+                }
+            }
+
+            .box-text {
+
+                width: 100%;
+                h2 {
+                  
+                    span {
+                    
+                    }
+
+                }
+                .box {
+                    width: 90%;
+                    .icone {
+                    
+
+                        img {
+                            
+                        }
+                    }
+
+                    .text {
+                    
+
+                        h2 {
+                          
+                        }
+                        h3 {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+
+
+@media (max-width: 550px) {
+    
+    .card-entrega {
+        height: 100vh;
+        margin-top: 0vh;
+
+        .container {
+            display: inline-block;
+
+            .box-imagem {
+                width: 90%;
+                height: 35vh;
+                margin: auto;
+                img {
+                    width:100%;
+                    height: 100%;
+                    margin-left: -5vh;
+                    margin-top: -12vh;
+                    left: 0;
+                }
+            }
+
+            .box-text {
+                width: 100%;
+                margin: auto; margin-top: 5vh;
+
+                h2 {                margin-left: 0vh;
+                    width: 100%;
+                    height: 7vh;
+                    text-align: center;
+                    margin: auto;
+    
+                    span {
+                    
+                    }
+
+                }
+                .box {
+                    width: 100%;
+                    margin-left: 0vh;
+                    
+                    .icone {
+                    
+
+                        img {
+                            
+                        }
+                    }
+
+                    .text {
+                    
+
+                        h2 {
+                            margin-top: 2vh;
                         }
                         h3 {
                             width: 80%;
-                            margin-top: -1.5vh;
+                            margin-top: .5vh;
                             font-size: 12px;
                         }
                     }

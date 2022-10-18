@@ -63,7 +63,7 @@
             top: 2882.7px;
 
             background: #FFFFFF;
-            box-shadow: 0px 4px 25px rgba(60, 35, 13, 0.1);
+            box-shadow: rgba(88, 88, 88, 0.11) 0px 3px 8px;
             border-radius: 10px;
             cursor: pointer;
 
@@ -76,15 +76,16 @@
             }
 
             .text {
-                width: 90%;
+                width: 100%;
                 margin: auto;
-                margin-top: 15%;
+                height: 50%;
+
                 
                 h3 {
-                    width: 100%;
-                    height: 90px;
-                    margin-left: 0px;
-                    top: 2895.1px;
+                    width: 90%;
+                    text-align: left;
+                    margin: auto;
+                    margin-top: 4vh;
                     
                     /* T-16 */
                     
@@ -92,8 +93,8 @@
                     font-style: normal;
                     text-align: left;
                     font-weight: 400;
-                    font-size: 16px;
-                    line-height: 22px;
+                    font-size: 18px;
+                    line-height: 28px;
                     /* or 140% */
                     
                     
@@ -102,43 +103,69 @@
                     color: #635352;
                 }
             }
-         
-            .imagem {
-                width: 70px;
-                height: 70px;
-                margin-left: 5vh;
-                margin-top: 3vh;
-                border-radius: 50%;
 
-                img {
-                    width: 100%;
+            .box-inferior {
+
+                width: 100%;
+                height: 30%;
+                display: flex;
+
+                .imagem {
+                    width: 20%;
                     height: 100%;
+                    margin-left: 2vh;
+
+         
+                    img {
+                        width: 80%;
+                        height: 70%;
+                        margin: auto; margin-top: 1vh;
+                    }
+    
+                   
                 }
+                .text-inf {
+                    width: 70%;
+                    height: 100%;
 
-               
+                    h4 {
+                        /* H4-18 */
+        
+                        font-family: 'Lilita One';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 25px;
+                        /* identical to box height, or 140% */
+        
+                        text-transform: uppercase;
+                        text-align: left;
+                        margin-top: 1vh;
+                        /* Título */
+        
+                        color: rgba(29, 6, 5, 0.973);
+                    }
+                   h5 {
+
+        
+                        /* H4-18 */
+                        font-family: 'Lato';
+                        text-align: left;
+                        margin-top: 1vh;
+                        /* identical to box height, or 140% */
+        
+                        text-transform: uppercase;
+        
+                        /* Título */
+        
+                        color: rgba(29, 6, 5, 0.973);
+                    }
+                }
+                
+
             }
-            h4 {
-                position: absolute;
-                width: 114px;
-                height: 26px;
-                margin-left: 15vh;
-                margin-top: -5vh;
-
-                /* H4-18 */
-
-                font-family: 'Lilita One';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 25px;
-                /* identical to box height, or 140% */
-
-                text-transform: uppercase;
-
-                /* Título */
-
-                color: rgba(29, 6, 5, 0.973);
-            }
+         
+            
         }
     }
 }
@@ -148,24 +175,40 @@
 
     .clientes {
 
+        h2 {
+            margin-left: 8vh;
+        }
+        h3 {
+            margin-left: 13vh;
+        }
+
         .container {
          
-            .box {
-                height: auto;
-                .text {
+          
+        }
+    }
+    
+}
 
-                    margin-top: 7vh;
-                   
-                }
-                .imagem {
-                    width: 70px;
-                    height: 70px;
-                    margin-top: 5vh;
-                    margin-bottom: 2vh;
-                    margin-left: 10%;
-                }
-                
-            }
+
+@media (max-width: 768px) {
+
+
+    .clientes {
+        h2 {
+            width: 100%;
+            text-align: center;
+            margin: auto;
+        }
+        h3 {
+
+            width: 100%;
+            text-align: center;
+            margin: auto;
+        }
+        .container {
+         
+
         }
     }
     
@@ -175,47 +218,86 @@
 
     .clientes {
         width: 100%;
-        height: auto;
-        h2 {
-            width: 100%;
-            margin: auto;
-        }
-        h3 {
-            width: 100%;
-            text-align: center;
-            margin: auto;
-        }
+        height: 50vh;
+
 
         .container {   
             width: 100%;         
-            height: auto;
+            height: 50vh;
             margin-top: 5vh;
+
             .box {
-                width: 95%;
-                height: auto;
+                height: 45vh;
 
-                .text {
-                    margin-top: 5vh;
-
-                    h3 {
-
-                        font-size: 14px;
+                .box-inferior {
+                    margin-top: 3vh;
+                    .imagem {
+                        
+                        img {
+                            width: 80%;
+                            height: 50%;
+                        }
                     }
                 }
-                .imagem {
-                    width: 80px;
-                    height: 80px;
-                    margin-top: 12vh;
-                    margin-bottom: 5vh;
-                }
-                h4 {
-                 margin-top: -15vh;
-                 margin-left: 11%;
-                 font-size: 17px;
-                }
             }
+          
         }
     }
     
     
+}
+
+
+@media (max-width: 400px) {
+
+    .clientes {
+        height: 60vh;
+
+
+        .container {   
+            height: 60vh;
+
+            .box {
+                height: 48vh;
+
+                .box-inferior {
+                  margin-top: 7vh;
+                    .imagem {
+                        
+                        img {
+                         
+                        }
+                    }
+                }
+            }
+          
+        }
+    }
+}
+
+@media (max-width: 375px) {
+
+    .clientes {
+        height: 75vh;
+
+
+        .container {   
+            height: 70vh;
+
+            .box {
+                height: 65vh;
+
+                .box-inferior {
+                  margin-top: 7vh;
+                    .imagem {
+                        
+                        img {
+                         
+                        }
+                    }
+                }
+            }
+          
+        }
+    }
 }

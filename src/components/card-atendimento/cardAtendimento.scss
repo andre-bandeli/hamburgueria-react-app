@@ -2,44 +2,43 @@
 .card-atendimento {
 
     width: 100%;
-    height: 70vh;
-    margin-top: 25vh;
+    height: 50vh;
+    margin-top: 5vh;
+
 
     .container {
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 100%;
         margin: auto; margin-top: 10%;
         display: flex;
+        flex-wrap: wrap;
         border-bottom: 1px solid rgba(29, 6, 5, 0.15);
 
-        .box-imagem {
-            width: 35%;
-            height: 308.15px;
-            margin-left: 30vh;
-            top: 2239.55px;
+        
+           
+        .circular-bx {
+            width: 50%;
+            height: 80%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    margin: auto;
+                    margin-top: 0vh;
 
-            background: rgba(250, 226, 203, 0.9);
-            mix-blend-mode: normal;
-            border-radius: 35px 154.077px 154.077px 35px;
-
-            img {
-                width: 400.45px;
-                height: 455.7px;
-                left: 405.55px;
-                margin-top: -15vh;
-                border-radius: 2px;
-            }
+                }
+            
         }
 
         .box-text {
-            width: 40%;
+            width: 50%;
             height: 100%;
 
+
             h2 {
-                width: 324.66px;
-                height: 92px;
+                width: 80%;
+                height: auto;
                 margin-left: 5vh;
-                margin-top: 5vh;
+                margin-top: 12vh;
                 text-align: left;
                 font-family: 'Lilita One';
                 font-style: normal;
@@ -55,8 +54,6 @@
                 color: rgba(29, 6, 5, 0.9);
 
                 span {
-                    width: 339.43px;
-                    height: 46.29px;
                     left: 966.92px;
                     top: 2314.74px;
 
@@ -68,8 +65,8 @@
 
             }
             h3 {
-                width: 482.42px;
-                height: 59px;
+                width: 100%;
+                height: auto;
                 margin-left: 5vh;
                 top: 2370.26px;
                 text-align: left;
@@ -78,6 +75,7 @@
                 font-weight: 400;
                 font-size: 20.8614px;
                 line-height: 29px;
+                margin-top: 1vh;
                 /* or 140% */
 
 
@@ -105,7 +103,7 @@
                 border-radius: 5.21535px;
                 a {
                     width: 189px;
-                    height: 33px;
+                    height: auto;
 
                     font-family: 'Lato';
                     font-style: normal;
@@ -132,33 +130,20 @@
 }
 
 
-
-@media (max-width: 550px) {
+@media (max-width: 1440px) {
     
 .card-atendimento {
-    height: auto;
-   
-
+   margin-top: 20vh;
     .container {
-      display: inline-block;
 
-        .box-imagem {  
-            width: 100%;
-            margin-top: 15vh;
-            margin-left: 0vh;
+     
+        .circular-bx {
 
-            img {
-                width: 80%;
-            }
         }
-
         .box-text {
-            width: 100%;
-           margin-bottom: 10vh;
+           
             h2 {
-              margin-top: 10vh;
-              margin-left: 2vh;
-              width: 80%;
+          
 
                 span {
                   
@@ -166,14 +151,12 @@
 
             }
             h3 {
-                margin-left: 2vh;
-                width: 70%;
+                width: 100%;
                
             }
 
             button {
-                margin-left: 2vh;
-                margin-top: 10vh;
+             
                 a {
                
                 }
@@ -183,4 +166,124 @@
 }
 
 
+}
+
+@media (max-width: 1024px) {
+      
+    .card-atendimento {
+        height: auto;
+    
+        .container {
+            width: 90%;
+            height: auto;
+            display: flex;
+            border: none;
+
+        
+            .circular-bx {
+                width: 50%;
+        
+            }
+            .box-text {
+  
+                width: 50%;
+
+                h2 {
+                    font-size: 30px;
+                }
+                h3 {
+                    width: 80%;
+                    font-size: 18px;
+                }
+            }
+        
+        }
+    }
+}
+
+@media (max-width: 768px) {
+      
+    .card-atendimento {
+       
+        .container {
+            display: inline-block;
+            width: 90%;
+         
+            .circular-bx {
+                width: 100%;
+    
+                .box {
+                
+                }
+            }
+            .box-text {
+  
+                width: 100%;
+
+                h2 {
+                    width: 80%;
+                    font-size: 38px;
+
+                    span {
+                        width: 100%;
+                    }
+                }
+                h3 {
+                    width: 80%;
+                    font-size: 18px;
+                }
+            }
+        } 
+    }
+}
+    
+
+
+@media (max-width: 550px) {
+      
+    .card-atendimento {
+        margin-top: 20vh;
+       
+        .container {
+            display: inline-block;
+            width: 80%;
+         
+            .circular-bx {
+                width: 100%;
+                margin: auto;
+                
+                  
+     
+                    img {
+                        
+                     
+    
+                    }
+            }
+            .box-text {
+
+                width: 100%;
+
+                h2 {
+                    font-size: 30px;
+                    margin: auto;
+                }
+                h3 {
+                    width: 80%;
+                    font-size: 18px;
+                    margin: auto;
+                }
+                button {
+                    width: 60%;
+                    margin-left: 5vh;
+
+                    a {
+                        width: 100%;
+                        font-size: 15px;
+
+                    }
+                }
+            }
+        } 
+    }
 }
