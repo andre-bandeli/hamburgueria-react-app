@@ -134,6 +134,10 @@
                     }
                 }
             }
+            .box:hover {
+                background-image: linear-gradient(to right top, #e91f0df5, #ea1d0ede, #ea1b10b9, #eb1511c0, #eb1212be);
+                cursor: pointer;
+            }
         }
     }
 }

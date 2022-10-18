@@ -6,21 +6,35 @@
 
     .container {
         width: 60%;
-        height: 140px;
+        height: 150px;
         margin: auto;
         background: #F43127;
         border-radius: 10px;
         display: flex;
 
+        .icon {
+            width: 15%;
+            height: 80%;
+            margin: auto;
+            border-right: 1px solid black;
+
+
+            img {
+                width: 50%;
+                height: 60%;
+                margin: auto; margin-top: 3vh;
+            }
+        }
+
         .text {
-            width: 70%;
+            width: 50%;
             height: 100%;
 
             h2 {
                 width: 401px;
                 height: 28px;
-                margin-left: 10vh;
-                top: 4280.71px;
+                margin-left: 3vh;
+                margin-top: 2vh;
 
                 /* H2-25 */
 
@@ -41,8 +55,8 @@
             h3 {
                 width: 466.27px;
                 height: 45px;
-                margin-left: 10vh;
-                margin-top: -1vh;
+                margin-left: 3vh;
+                margin-top: 1vh;
                 text-align: left;
                 /* T-16 */
 
@@ -59,50 +73,100 @@
             }
         }
 
-        button {
-            width: 100px;
-            height: 100px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 8px 16px;
-            gap: 10px;
-            width: 196px;
-            height: 42px;
-            left: 1311.64px;
-            margin-top: 4%;
-            border: none;
-            background: #FAE4D0;
-            border-radius: 4px;
+        .btn {
+            width: 35%;
+            height: 100%;
+            background-color: transparent;
+            margin-top: 0vh;
 
-            a {
-                width: 164px;
-                height: 26px;
+            button {
+                width: 60%;
+                height: auto;
+                padding: 8px 16px;
+                gap: 10px;
+                height: 42px;
+                margin-left: 25%;
+                border: none;
+                background: #FAE4D0;
+                border-radius: 4px;
+    
+    
+                a {
 
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: 900;
-                font-size: 18px;
-                line-height: 25px;
-                /* identical to box height, or 140% */
-                text-decoration: none;
-                text-align: center;
-                text-transform: uppercase;
+                    width: 100%;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 25px;
+                    /* identical to box height, or 140% */
 
-                /* $red */
-
-                color: #F43127;
-
-
-                /* Inside auto layout */
-
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin: auto;
+    
+                    /* $red */
+    
+                    color: #F43127;
+    
+    
+                    /* Inside auto layout */
+    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+    
+                }
             }
         }
 
+        
+
+    }
+}
+
+
+@media (max-width: 1440px) {
+
+
+    .card-pedidos {
+       
+
+        .container {
+            width: 80%;
+            .imagem {
+
+        
+
+
+            }
+
+            .text {
+
+
+                h2 {
+                 
+                }
+
+                h3 {
+                  
+                }
+            }
+
+            .btn {
+              
+                button {
+                  height: auto;
+                    a {
+
+                       
+                    }
+                }
+            }
+
+           
+
+        }
     }
 }
 
@@ -114,7 +178,7 @@
         margin-top: 25vh;
 
         .container {
-
+            width: 80%;
             .imagem {
 
                 width: 0%;
@@ -127,19 +191,31 @@
 
 
                 h2 {
-                    margin-left: 3vh;
+                    margin-left: 0vh;
+                    margin-top: 3vh;
                 }
 
                 h3 {
-                    margin-left: 3vh;
+                    margin-left: 0vh;
+                    width: 100%;
                 }
             }
 
-            button {
-                margin-top: 12vh;
+            .btn {
+                width: 25%;
+                button {
+                    width: 100%;
+                    margin-top: 0vh;
+                    margin-left: 5vh;
+    
+                    a {
 
-                a {}
+                        font-size: 12px;
+                    }
+                }
             }
+
+           
 
         }
     }
@@ -153,9 +229,9 @@
         .container {
             width: 90%;
 
-            .imagem {
-                width: 0%;
-                visibility: hidden;
+            .icon {
+                width: 20%;
+
 
 
             }
@@ -170,31 +246,38 @@
                     text-align: left;
                     width: 80%;
                     margin-left: 2vh;
+                    margin-top: 2vh;
                 }
 
                 h3 {
                     width: 90%;
                     margin-left: 2vh;
+                    margin-top: 3vh;
                     font-size: 17px;
                     line-height: 18px;
                 }
             }
 
-            button {
-                position: absolute;
-                width: 35%;
-                height: 3vh;
-                margin-top: 9vh;
-                margin-left: 8vh;
-                left: 0;
-                border-radius: 10px;
-
-                a {
+            .btn {
+                width: 20%;
+                height: 100%;
+                button {
+    
                     width: 100%;
-                    font-size: 14px;
-                    text-align: center;
+                    height: auto;
+                    margin-top: 0vh;
+                    margin-left: 0vh;
+                    left: 0;
+                    border-radius: 10px;
+    
+                    a {
+                        width: 100%;
+                        font-size: 14px;
+                        text-align: center;
+                    }
                 }
             }
+            
 
         }
     }
@@ -205,55 +288,65 @@
 
     .card-pedidos {
 
-
+        height: 30vh;
 
         .container {
             width: 90%;
             height: 100%;
 
-            .imagem {
-                width: 0%;
-                visibility: hidden;
+            .icon {
+                width: 2%;
+
+                img {
+                    width: 0%;
+                    visibility: hidden;
+                }
 
 
             }
 
             .text {
-                width: 100%;
+                width: 50%;
                 height: 100%;
                 margin-left: 0vh;
 
                 h2 {
                     font-size: 22px;
                     text-align: left;
-                    width: 80%;
-                    margin-left: 2vh;
+                    width: 100%;
+                    margin-left: 0vh;
+                    margin-top: 4vh;
                 }
 
                 h3 {
-                    width: 90%;
-                    margin-left: 2vh;
+                    width: 100%;
+                    margin-left: 0vh;
                     font-size: 15px;
-                    margin-top: 3vh;
+                    margin-top: 7vh;
                     line-height: 18px;
                 }
             }
 
-            button {
-                position: absolute;
-                width: 45%;
-                height: 4vh;
-                margin-top: 15vh;
-                margin-left: 20vh;
-                left: 0;
-                border-radius: 10px;
-
-                a {
-                    width: 100%;
-                    font-size: 14px;
-                    text-align: center;
+            .btn {
+                width: 30%;
+                margin-left:0vh ;
+                button {
+                    
+                    width: auto;
+                    
+       
+                    left: 0;
+                    border-radius: 10px;
+    
+                    a {
+                        width: 100%;
+                        font-size: 14px;
+                        text-align: center;
+                    }
                 }
             }
+
+           
 
         }
     }

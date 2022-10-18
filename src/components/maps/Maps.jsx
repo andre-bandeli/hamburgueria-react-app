@@ -17,17 +17,17 @@ export default function Maps() {
   return (
     <div className='maps'>
 
-        <h2>Onde ficar a nosso castelo</h2>
+        <h2>Onde fica nosso castelo</h2>
         <h3>Estaremos de portas abertas para a nossa realeza.</h3>
 
         <div className="container">
         <LoadScript
-                      googleMapsApiKey="AIzaSyA6TfwAfLGJnca23UDIzJQ2iM4MaZe5SFg"
+                      googleMapsApiKey="AIzaSyAT62NzSfccBJZg1brAX-McZY6oUcAJvmw"
                     >
               <GoogleMap
                       mapContainerStyle={containerStyle}
                       center={center}
-                      zoom={10}
+                      zoom={15}
               >
                 { /* Child components, such as markers, info windows, etc. */ }
                 <></>
