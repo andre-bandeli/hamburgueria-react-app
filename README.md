@@ -18,10 +18,6 @@
 
 Este é um projeto para estudos, desenvolvido através do template disponibilizado pelo designer Tialgo Alves. Página desenvolvida utilizando React JS, React Router DOM, Jquery, react-elastic-carousel antre outras bibliotecas e stacks.
 
-Template (Tiago Alves): 
-- https://www.figma.com/file/wp905q3sMDYSeeaiE73dY2/Hamburgueria---Landing-Page?node-id=202%3A112
-
-
 
 ### Instalação:
 
@@ -69,6 +65,11 @@ Em caso de dúvidas, sugestões ou melhorias, abra uma nova issue ou envie uma m
 
 
 ### Créditos
+
+Template (Tiago Alves): 
+- https://www.figma.com/file/wp905q3sMDYSeeaiE73dY2/Hamburgueria---Landing-Page?node-id=202%3A112
+
+
 
 ![screenshot-2](https://user-images.githubusercontent.com/87938869/194700481-70e1a168-8951-43d9-a823-7092e189dcf3.jpg)
 ![screenshot-1](https://user-images.githubusercontent.com/87938869/194700472-0231f006-6153-4b63-9c21-d68800bc08e9.jpg)
