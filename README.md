@@ -8,6 +8,8 @@
 
 ### Descrição e Motivações
 
+Veja o projeto: https://andre-bandeli.github.io/hamburgueria-react-app/
+
 Este é um projeto para estudos, desenvolvido através do template disponibilizado pelo designer Tialgo Alves. Página desenvolvida utilizando React JS, React Router DOM, Jquery, react-elastic-carousel antre outras bibliotecas e stacks.
 
 
