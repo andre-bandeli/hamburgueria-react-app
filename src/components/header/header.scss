@@ -241,7 +241,25 @@
         }
 
         .container-bx {
+            width: 70%;
             margin-top: 3vh;
+
+            .box {
+                .icon {
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                .text {
+                    h2 {
+                        margin-top: 1vh;
+                    }
+                    
+                }
+            }
+
+           
         }
     }
 }
@@ -333,6 +351,19 @@
 
         .container-bx {
             width: 80%;
+
+            .box {
+                .icon {
+                    img {
+                        margin-top: 2vh;
+                    }
+                }
+                .text {
+                    h2 {
+                        margin-top: 1vh;
+                    }
+                }
+            }
         }
     }
 }
