@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/hamburgueria-react-app/static/css/main.034a78b2.css",
+    "main.js": "/hamburgueria-react-app/static/js/main.bbcefb45.js",
+    "static/media/imagem-cliente.png": "/hamburgueria-react-app/static/media/imagem-cliente.0ca7c68d4ec637108690.png",
+    "static/media/background-image-header.svg": "/hamburgueria-react-app/static/media/background-image-header.ca8c848e91cb471c12e5.svg",
+    "static/media/back-cardapio.png": "/hamburgueria-react-app/static/media/back-cardapio.b8a61131f62242807360.png",
+    "static/media/imagem-1.png": "/hamburgueria-react-app/static/media/imagem-1.068772c1b8e59b25b8e0.png",
+    "static/media/imagem-fundo.png": "/hamburgueria-react-app/static/media/imagem-fundo.e2bd80a5970723c98b79.png",
+    "static/media/03.png": "/hamburgueria-react-app/static/media/03.3c396cad5e5247668dae.png",
+    "static/media/02.png": "/hamburgueria-react-app/static/media/02.0ceb76226166d6c9048e.png",
+    "static/media/01.png": "/hamburgueria-react-app/static/media/01.e10b2dd0ae9865e71b49.png",
+    "static/media/04.png": "/hamburgueria-react-app/static/media/04.5bd35a88a24461b9ea9b.png",
+    "static/media/imagem-3.png": "/hamburgueria-react-app/static/media/imagem-3.64eec354aa64bc45c745.png",
+    "static/media/imagem-2.png": "/hamburgueria-react-app/static/media/imagem-2.721604ba5d20cd8bac0e.png",
+    "static/media/ifood-white-bg.png": "/hamburgueria-react-app/static/media/ifood-white-bg.b1513e7b883a8f84458f.png",
+    "static/media/back-cardapio-white.png": "/hamburgueria-react-app/static/media/back-cardapio-white.5d27fa2e98e3a433a455.png",
+    "static/media/whats.png": "/hamburgueria-react-app/static/media/whats.fdd4b7007148bcf6ce48.png",
+    "static/media/relogio.png": "/hamburgueria-react-app/static/media/relogio.b09ff2fcd38a7ed16edc.png",
+    "static/media/logo.svg": "/hamburgueria-react-app/static/media/logo.45e4f3ab31af3db0399cd88dd39c6569.svg",
+    "index.html": "/hamburgueria-react-app/index.html",
+    "main.034a78b2.css.map": "/hamburgueria-react-app/static/css/main.034a78b2.css.map",
+    "main.bbcefb45.js.map": "/hamburgueria-react-app/static/js/main.bbcefb45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.034a78b2.css",
+    "static/js/main.bbcefb45.js"
+  ]
+}
