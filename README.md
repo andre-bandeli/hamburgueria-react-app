@@ -11,7 +11,7 @@
 Este é um projeto para estudos, desenvolvido através do template disponibilizado pelo designer Tialgo Alves. Página desenvolvida utilizando React JS, React Router DOM, Jquery, react-elastic-carousel antre outras bibliotecas e stacks.
 
 
-### Instalação:
+### Instalação
 
 
 Crie uma pasta e clone o projeto. Certifique-se de ter insdtalado em sua máquina o Node e o React (https://pt-br.reactjs.org/).
