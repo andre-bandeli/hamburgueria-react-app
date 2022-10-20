@@ -1,3 +1,14 @@
+
+:root {
+
+    --font: 'Lilita One';
+    --secundary-font: 'Lato';
+    --primary-bg-color: #F59A1B;
+    --primary-button-color: #F43127;
+    --primary-font-color: rgba(29, 6, 5, 0.966);
+    --secundary-font-color: white;
+}
+
 .card-atendimento {
 
     width: 100%;
@@ -14,8 +25,6 @@
         flex-wrap: wrap;
         border-bottom: 1px solid rgba(29, 6, 5, 0.15);
 
-
-
         .circular-bx {
             width: 50%;
             height: 80%;
@@ -27,13 +36,11 @@
                 margin-top: 0vh;
 
             }
-
         }
 
         .box-text {
             width: 50%;
             height: 100%;
-
 
             h2 {
                 width: 80%;
@@ -41,29 +48,20 @@
                 margin-left: 5vh;
                 margin-top: 12vh;
                 text-align: left;
-                font-family: 'Lilita One';
+                font-family: var(--font);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 41.7228px;
                 line-height: 46px;
-                /* or 110% */
-
                 text-transform: uppercase;
-
-                /* Título */
-
                 color: rgba(29, 6, 5, 0.9);
 
                 span {
                     left: 966.92px;
                     top: 2314.74px;
-
-                    /* $yellow */
-
-                    background: #F59A1B;
+                    background: var(--primary-bg-color);
                     border-radius: 8.27974px;
                 }
-
             }
 
             h3 {
@@ -78,11 +76,6 @@
                 font-size: 20.8614px;
                 line-height: 29px;
                 margin-top: 1vh;
-                /* or 140% */
-
-
-                /* Texto */
-
                 color: rgba(29, 6, 5, 0.69);
             }
 
@@ -101,7 +94,7 @@
 
                 /* $red */
 
-                background: #F43127;
+                background: var(--primary-button-color);
                 border-radius: 5.21535px;
 
                 a {
@@ -114,15 +107,8 @@
                     font-size: 20px;
                     text-decoration: none;
                     line-height: 33px;
-                    /* identical to box height, or 140% */
-
                     text-align: center;
-
                     color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
                     flex: none;
                     order: 0;
                     flex-grow: 0;
@@ -140,68 +126,15 @@
 
         .container {
 
-
-            .circular-bx {}
-
             .box-text {
-
-                h2 {
-
-
-                    span {}
-
-                }
 
                 h3 {
                     width: 100%;
-
-                }
-
-                button {
-
-                    a {}
                 }
             }
         }
     }
-
-
 }
-
-// @media (max-width: 1024px) {
-
-//     .card-atendimento {
-//         height: auto;
-
-//         .container {
-//             width: 90%;
-//             height: auto;
-//             display: flex;
-//             border: none;
-
-
-//             .circular-bx {
-//                 width: 50%;
-
-//             }
-
-//             .box-text {
-
-//                 width: 50%;
-
-//                 h2 {
-//                     font-size: 30px;
-//                 }
-
-//                 h3 {
-//                     width: 80%;
-//                     font-size: 18px;
-//                 }
-//             }
-
-//         }
-//     }
-// }
 
 @media (max-width: 768px) {
 
@@ -215,8 +148,6 @@
 
             .circular-bx {
                 width: 100%;
-
-                .box {}
             }
 
             .box-text {
@@ -255,10 +186,6 @@
             .circular-bx {
                 width: 100%;
                 margin: auto;
-
-
-
-                img {}
             }
 
             .box-text {
@@ -283,7 +210,6 @@
                     a {
                         width: 100%;
                         font-size: 15px;
-
                     }
                 }
             }
