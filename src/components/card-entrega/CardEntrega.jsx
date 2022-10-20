@@ -5,8 +5,6 @@ import imagem from './imagem-fundo.png'
 import sobremesa from './icones/sobremesa.png'
 import whats from './icones/whats.png'
 import delivery from './icones/delivery.png'
-import ifood from './icones/ifood.png'
-
 
 export default function CardEntrega() {
   return (

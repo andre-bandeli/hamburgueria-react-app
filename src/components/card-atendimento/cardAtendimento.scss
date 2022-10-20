@@ -1,11 +1,10 @@
 
 :root {
-
     --font: 'Lilita One';
     --secundary-font: 'Lato';
-    --primary-bg-color: #F59A1B;
+    --primary-span-color: #F59A1B;
     --primary-button-color: #F43127;
-    --primary-font-color: rgba(29, 6, 5, 0.966);
+    --primary-font-color: var(--primary-font-color);
     --secundary-font-color: white;
 }
 
@@ -34,7 +33,6 @@
                 height: 100%;
                 margin: auto;
                 margin-top: 0vh;
-
             }
         }
 
@@ -54,12 +52,12 @@
                 font-size: 41.7228px;
                 line-height: 46px;
                 text-transform: uppercase;
-                color: rgba(29, 6, 5, 0.9);
+                color: var(--primary-font-color);
 
                 span {
                     left: 966.92px;
                     top: 2314.74px;
-                    background: var(--primary-bg-color);
+                    background: var(--primary-span-color);
                     border-radius: 8.27974px;
                 }
             }

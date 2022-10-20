@@ -1,3 +1,11 @@
+:root {
+    --font: 'Lilita One';
+    --secundary-font: 'Lato';
+    --primary-button-color: #F43127;
+    --primary-font-color: rgba(29, 6, 5, 0.9);
+    --secundary-font-color: white;
+}
+
 .card-entrega {
 
     width: 100%;
@@ -33,7 +41,7 @@
                 margin-left: 5vh;
                 margin-top: 7vh;
 
-                font-family: 'Lilita One';
+                font-family: var(--font);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 32px;
@@ -43,18 +51,7 @@
 
                 /* Título */
 
-                color: rgba(29, 6, 5, 0.9);
-
-                span {
-                    width: 339.43px;
-                    height: 46.29px;
-                    left: 966.92px;
-
-                    /* $yellow */
-
-                    background: #F59A1B;
-                    border-radius: 8.27974px;
-                }
+                color: var(--primary-font-color);
 
             }
 
@@ -93,19 +90,12 @@
                         margin-left: 3vh;
                         margin-top: 2vh;
                         text-align: left;
-                        /* H3-20 */
-
-                        font-family: 'Lilita One';
+                        font-family: var(--font);
                         font-style: normal;
                         font-weight: 400;
                         font-size: 20px;
                         line-height: 22px;
-                        /* identical to box height, or 110% */
-
                         text-transform: uppercase;
-
-                        /* Título */
-
                         color: rgba(29, 6, 5, 0.9);
                     }
 
@@ -120,11 +110,6 @@
                         font-weight: 400;
                         font-size: 16px;
                         line-height: 19px;
-                        /* identical to box height, or 120% */
-
-
-                        /* Texto */
-
                         color: rgba(29, 6, 5, 0.69);
                     }
                 }
@@ -147,7 +132,6 @@
             width: 100%;
             margin: auto;
 
-
             .box-imagem {
                 width: 50%;
                 height: 100%;
@@ -157,44 +141,19 @@
                 img {
                     width: 100%;
                 }
-
             }
 
             .box-text {
                 width: 50%;
 
-
-                h2 {
-
-                    span {}
-
-                }
-
                 .box {
                     width: 90%;
                     margin: auto;
                     margin-top: 1vh;
-
-                    .icone {
-
-
-                        img {}
-                    }
-
-                    .text {
-
-
-                        h2 {}
-
-                        h3 {}
-                    }
                 }
             }
         }
-
     }
-
-
 }
 
 
@@ -208,8 +167,6 @@
             .box-imagem {
                 width: 50%;
                 margin-left: 0vh;
-
-                img {}
             }
 
             .box-text {
@@ -218,24 +175,6 @@
 
                 h2 {
                     margin-left: 2.5vh;
-
-                }
-
-                .box {
-
-                    .icone {
-
-
-                        img {}
-                    }
-
-                    .text {
-
-
-                        h2 {}
-
-                        h3 {}
-                    }
                 }
             }
         }
@@ -288,20 +227,15 @@
                     margin-left: 0vh;
 
                     .icone {
-
-
                         img {
                             margin-top: 1vh;
                         }
                     }
 
                     .text {
-
-
                         h2 {
                             margin-top: 2vh;
                         }
-
                         h3 {
                             width: 80%;
                             margin-top: .5vh;
@@ -323,15 +257,6 @@
 
         .container {
             width: 100%;
-           
-
-            .box-imagem {
-               
-
-                img {
-                
-                }
-            }
 
             .box-text {
                 width: 100%;
@@ -345,8 +270,6 @@
                     text-align: center;
                     margin: auto;
 
-                    span {}
-
                 }
 
                 .box {
@@ -355,8 +278,6 @@
                     margin-top: .5vh;
 
                     .icone {
-
-
                         img {
                             width: 40px;
                             margin-top: 2.5vh;

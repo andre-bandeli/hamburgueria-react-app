@@ -1,3 +1,12 @@
+:root {
+    --font: 'Lilita One';
+    --secundary-font: 'Lato';
+    --primary-bg-color: #F43127;
+    --primary-bg-btn-color: #FAE4D0;
+    --primary-font-color: var(--primary-font-color);
+    --secundary-font-color: var(--secundary-font-color);
+}
+
 .card-pedidos {
 
     width: 100%;
@@ -8,7 +17,7 @@
         width: 60%;
         height: 150px;
         margin: auto;
-        background: #F43127;
+        background: var(--primary-bg-color);
         border-radius: 10px;
         display: flex;
 
@@ -18,11 +27,11 @@
             margin: auto;
             border-right: 1px solid black;
 
-
             img {
                 width: 50%;
                 height: 60%;
-                margin: auto; margin-top: 3vh;
+                margin: auto;
+                margin-top: 3vh;
             }
         }
 
@@ -35,21 +44,13 @@
                 height: 28px;
                 margin-left: 3vh;
                 margin-top: 2vh;
-
-                /* H2-25 */
-
-                font-family: 'Lilita One';
+                font-family: var(--font);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 25px;
                 line-height: 28px;
-                /* identical to box height, or 110% */
-
                 text-transform: uppercase;
-
-                /* Texto */
-
-                color: rgba(29, 6, 5, 0.69);
+                color: var(--primary-font-color);
             }
 
             h3 {
@@ -58,17 +59,12 @@
                 margin-left: 3vh;
                 margin-top: 1vh;
                 text-align: left;
-                /* T-16 */
-
-                font-family: 'Lato';
+                font-family: var(--secundary-font);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 22px;
-                /* or 140% */
-
-
-                color: rgba(255, 255, 255, 0.9);
+                color: var(--secundary-font-color);
 
             }
         }
@@ -87,84 +83,41 @@
                 height: 42px;
                 margin-left: 25%;
                 border: none;
-                background: #FAE4D0;
+                background: var(--primary-bg-btn-color);
                 border-radius: 4px;
-    
-    
+
                 a {
 
                     width: 100%;
-                    font-family: 'Lato';
+                    font-family: var(--secundary-font);
                     font-style: normal;
                     font-weight: 900;
                     font-size: 18px;
                     line-height: 25px;
-                    /* identical to box height, or 140% */
-
                     text-transform: uppercase;
                     text-align: center;
                     margin: auto;
-    
-                    /* $red */
-    
                     color: #F43127;
-    
-    
-                    /* Inside auto layout */
-    
                     flex: none;
                     order: 0;
                     flex-grow: 0;
-    
                 }
             }
         }
-
-        
-
     }
 }
 
 
 @media (max-width: 1440px) {
-
-
     .card-pedidos {
-
         .container {
             width: 80%;
-            .imagem {
-
-        
-
-
-            }
-
-            .text {
-
-
-                h2 {
-                 
-                }
-
-                h3 {
-                  
-                }
-            }
 
             .btn {
-              
                 button {
-                  height: auto;
-                    a {
-
-                       
-                    }
+                    height: auto;
                 }
             }
-
-           
-
         }
     }
 }
@@ -178,16 +131,14 @@
 
         .container {
             width: 80%;
+
             .imagem {
 
                 width: 0%;
                 visibility: hidden;
-
-
             }
 
             .text {
-
 
                 h2 {
                     margin-left: 0vh;
@@ -202,20 +153,17 @@
 
             .btn {
                 width: 25%;
+
                 button {
                     width: 100%;
                     margin-top: 0vh;
                     margin-left: 5vh;
-    
-                    a {
 
+                    a {
                         font-size: 12px;
                     }
                 }
             }
-
-           
-
         }
     }
 }
@@ -230,9 +178,6 @@
 
             .icon {
                 width: 20%;
-
-
-
             }
 
             .text {
@@ -260,15 +205,16 @@
             .btn {
                 width: 20%;
                 height: 100%;
+
                 button {
-    
+
                     width: 100%;
                     height: auto;
                     margin-top: 0vh;
                     margin-left: 0vh;
                     left: 0;
                     border-radius: 10px;
-    
+
                     a {
                         width: 100%;
                         font-size: 14px;
@@ -276,8 +222,6 @@
                     }
                 }
             }
-            
-
         }
     }
 }
@@ -300,8 +244,6 @@
                     width: 0%;
                     visibility: hidden;
                 }
-
-
             }
 
             .text {
@@ -328,15 +270,16 @@
 
             .btn {
                 width: 30%;
-                margin-left:0vh ;
+                margin-left: 0vh;
+
                 button {
-                    
+
                     width: auto;
-                    
-       
+
+
                     left: 0;
                     border-radius: 10px;
-    
+
                     a {
                         width: 100%;
                         font-size: 14px;
@@ -344,10 +287,6 @@
                     }
                 }
             }
-
-           
-
         }
     }
 }
-
