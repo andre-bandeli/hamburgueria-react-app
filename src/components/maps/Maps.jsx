@@ -15,7 +15,7 @@ export default function Maps() {
 
     
   return (
-    <div className='maps'>
+    <div className='maps' id='localizacao'>
 
         <h2>Onde fica nosso castelo</h2>
         <h3>Estaremos de portas abertas para a nossa realeza.</h3>

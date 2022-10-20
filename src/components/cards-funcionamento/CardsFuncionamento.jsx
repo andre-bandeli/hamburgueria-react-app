@@ -4,7 +4,7 @@ import './cardsFuncionamento.scss'
 import icon from '../cards-funcionamento/relogio.png'
 export default function CardsFuncionamento() {
   return (
-    <div className='cards-funcionamento'>
+    <div className='cards-funcionamento' id='funcionamento'>
 
         <div className="container">
             <div className="col-6-red">

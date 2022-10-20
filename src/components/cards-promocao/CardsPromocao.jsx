@@ -7,7 +7,7 @@ import terceiro_vetor from '../cards-promocao/imagens/imagem-3.png';
 
 export default function CardsPromocao() {
   return (
-    <div className='promocao'>
+    <div id='promocao'>
         <div className="container-bx-cards">
             <h2>OFERTAS ESPECIAIS</h2>
             <h3>Aproveite todas as nossas ofertas, fiquem de olhos abertos, porque sempre estamos mudando o nosso cardapio.</h3>

@@ -4,7 +4,7 @@ import './cardsCardapio.scss'
 
 export default function CardsCardapio() {
   return (
-    <div className='cards-cardapio'>
+    <div className='cards-cardapio' id='cardapio'>
 
       <div className="col-6-img">
 

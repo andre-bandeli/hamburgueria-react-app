@@ -18,6 +18,9 @@
 
 Este é um projeto para estudos, desenvolvido através do template disponibilizado pelo designer Tialgo Alves. Página desenvolvida utilizando React JS, React Router DOM, Jquery, react-elastic-carousel antre outras bibliotecas e stacks.
 
+Template (Tiago Alves): 
+- https://www.figma.com/file/wp905q3sMDYSeeaiE73dY2/Hamburgueria---Landing-Page?node-id=202%3A112
+
 
 
 ### Instalação:
@@ -26,12 +29,11 @@ Este é um projeto para estudos, desenvolvido através do template disponibiliza
 Crie uma pasta e clone o projeto. Certifique-se de ter insdtalado em sua máquina o Node e o React (https://pt-br.reactjs.org/).
 Caminhe até a pasta onde encontra-se a raíz do projeto (odonto > 'src', 'public', etc) e instale os pacotes necessários. Em seguida, execute o comando para iniciar a aplicação react.
 
-        git clone 
-        cd odonto
+        git clone https://github.com/andre-bandeli/hamburgueria-react-app.git
+        cd hamburgueria
         npx react instal
         npm start
         
-
 
 ### Pacotes Importantes:
 

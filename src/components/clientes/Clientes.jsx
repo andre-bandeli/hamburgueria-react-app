@@ -18,7 +18,7 @@ export default function Clientes() {
 
 
   return (
-    <div className='clientes'>
+    <div className='clientes' id='clientes'>
 
       <h2>Nossa realeza</h2>
       <h3>A satisfação de nossos clientes em primeiro lugar!</h3>

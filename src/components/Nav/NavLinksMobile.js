@@ -1,20 +1,20 @@
 const NavLinksMobile = () => {
     return ( 
         <ul className="mob">
-             <li>
+            <li>
                 <a href="/"> Home</a>
             </li>
             <li>
-                <a href="/#about"> Promoção</a>
+                <a href="/#funcionamento"> Funcionamento</a>
             </li>
             <li>
-                <a href="/#skilss"> Cardapio</a>
+                <a href="/#cardapio"> Cardápio</a>
             </li>
             <li>
-                <a href="/#contact"> Comentário</a>
+                <a href="/#clientes"> Clientes</a>
             </li>
             <li>
-                <a href="/#contact"> Contato</a>
+                <a href="/#localizacao"> Localização</a>
             </li>
     </ul>
      );
