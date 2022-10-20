@@ -6,14 +6,6 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 
-### Status do Projeto
-
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-
-
-
-
-
 ### Descrição e Motivações
 
 Este é um projeto para estudos, desenvolvido através do template disponibilizado pelo designer Tialgo Alves. Página desenvolvida utilizando React JS, React Router DOM, Jquery, react-elastic-carousel antre outras bibliotecas e stacks.

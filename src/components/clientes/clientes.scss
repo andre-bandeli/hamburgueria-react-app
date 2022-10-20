@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+
+    --font: 'Lilita One';
+    --secundary-font: 'Lato';
+    --primary-font-color: rgba(29, 6, 5, 0.9);
+    --secundary-font-color: rgba(12, 12, 12, 0.959);
+}
 .clientes {
 
     width: 100%;
@@ -11,22 +19,13 @@
         height: 36px;
         margin-left: 15vh;
         top: 2803.7px;
-
-        /* H1-32 */
-
-        font-family: 'Lilita One';
+        font-family: var(--font);
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
         line-height: 35px;
-        /* identical to box height, or 110% */
-
         text-transform: uppercase;
-
-        /* Título */
-
-        color: rgba(29, 6, 5, 0.9);
-
+        color: var(--primary-font-color);
     }
 
     h3 {
@@ -34,20 +33,12 @@
         height: 23px;
         margin-left: 21vh;
         top: 2843.7px;
-
-        /* T-16 */
-
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
-        /* identical to box height, or 140% */
-
-
-        /* Texto */
-
-        color: rgba(29, 6, 5, 0.69);
+        color: var(--primary-font-color);
     }
 
     .container {
@@ -65,13 +56,16 @@
             background-color: rgba(228, 72, 44, 0.774);
             border: none;
         }
+        .sc-gKPRtg {
+            background-color: transparent;
+            border: 1px solid black;
+        }
 
         .box {
             width: 95%;
             height: 30vh;
             margin-left: 0vh;
             top: 2882.7px;
-
             background: #FFFFFF;
             box-shadow: rgba(88, 88, 88, 0.11) 0px 3px 8px;
             border-radius: 10px;
@@ -89,7 +83,6 @@
                 width: 100%;
                 margin: auto;
                 height: 50%;
-
 
                 h3 {
                     width: 90%;
@@ -143,7 +136,7 @@
                     h4 {
                         /* H4-18 */
 
-                        font-family: 'Lilita One';
+                        font-family: var(--font);
                         font-style: normal;
                         font-weight: 400;
                         font-size: 18px;
@@ -160,17 +153,10 @@
 
                     h5 {
 
-
-                        /* H4-18 */
                         font-family: 'Lato';
                         text-align: left;
                         margin-top: 1vh;
-                        /* identical to box height, or 140% */
-
                         text-transform: uppercase;
-
-                        /* Título */
-
                         color: rgba(29, 6, 5, 0.973);
                     }
                 }
@@ -217,10 +203,6 @@
 
         h3 {
             margin-left: 17vh;
-        }
-
-        .container {
-           
         }
     }
 
@@ -320,7 +302,6 @@
                     }
                 }
     
-
                 .box-inferior {
                     margin-top: 5vh;
                 }
@@ -364,11 +345,8 @@
                     }
                 }
             }
-
         }
     }
-
-
 }
 
 
@@ -376,7 +354,6 @@
 
     .clientes {
         height: 60vh;
-
 
         .container {
             height: 60vh;
@@ -386,11 +363,6 @@
 
                 .box-inferior {
                     margin-top: 7vh;
-
-                    .imagem {
-
-                        img {}
-                    }
                 }
             }
 
@@ -413,10 +385,6 @@
                 .box-inferior {
                     margin-top: 7vh;
 
-                    .imagem {
-
-                        img {}
-                    }
                 }
             }
 

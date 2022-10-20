@@ -1,27 +1,18 @@
 .publicacoes {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 
     h2 {
         width: 100%;
         height: 36px;
-
         top: 3208.54px;
-
-        /* H1-32 */
-
         font-family: 'Lilita One';
         font-style: normal;
         font-weight: 400;
         font-size: 32px;
         line-height: 35px;
-        /* identical to box height, or 110% */
-
         text-align: center;
         text-transform: uppercase;
-
-        /* Título */
-
         color: rgba(29, 6, 5, 0.9);
 
     }
@@ -30,20 +21,12 @@
         width: 90%;
         height: 23px;
         margin: auto;
-
-        /* T-16 */
-
         font-family: 'Lato';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
-        /* identical to box height, or 140% */
-
         text-align: center;
-
-        /* Texto */
-
         color: rgba(29, 6, 5, 0.69);
     }
 
@@ -73,9 +56,6 @@
         height: auto;
         left: 0px;
         margin-top: 0vh;
-
-        /* $yellow */
-
         background: #F59A1B;
         mix-blend-mode: normal;
 
@@ -83,22 +63,14 @@
             width: 100%;
             top: 0;
             padding-top: .5%;
-
             font-family: 'Lilita One';
             font-style: normal;
             font-weight: 400;
             font-size: 23px;
             line-height: 28px;
-            /* or 100% */
-
             text-align: center;
             text-transform: uppercase;
-
-            /* Título */
-
             color: rgba(29, 6, 5, 0.9);
-
-
         }
 
     }
@@ -110,8 +82,6 @@
     .publicacoes {
         height: 120vh;
         margin-top: 10vh;
-
-        h3 {}
 
         .container {
             width: 100%;
@@ -132,13 +102,10 @@
                     border-radius: 15px;
                 }
             }
-
         }
 
         .span {
             height: 10vh;
-
-            h2 {}
 
         }
 
@@ -161,7 +128,6 @@
             }
 
         }
-
     }
 }
 
@@ -174,7 +140,6 @@
             margin-top: 2vh;
             font-size: 18px;
         }
-
 
         .container {
             margin-top: 10vh;
@@ -189,15 +154,12 @@
                 width: 50%;
                 height: 25vh;
 
-
-
                 img {
                     width: 95%;
                     height: 95%;
                     border-radius: 15px;
                 }
             }
-
         }
 
         .span {
@@ -232,21 +194,17 @@
                 width: 50%;
                 height: 20vh;
 
-
-
                 img {
                     width: 95%;
                     height: 95%;
                     border-radius: 15px;
                 }
             }
-
         }
 
         .span {
             width: 0%;
             visibility: hidden;
         }
-
     }
 }

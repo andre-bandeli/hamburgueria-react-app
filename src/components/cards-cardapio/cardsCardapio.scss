@@ -1,9 +1,20 @@
+:root {
+    --font: 'Lilita One';
+    --secundary-font: 'Lato';
+    --primary-bg-color: #3B200B;
+    --primary-bg-btn-color: #FAE4D0;
+    --primary-bg-image: url(./back-cardapio.png);
+    --primary-bg-white-image: './back-cardapio-white.png';
+    --primary-font-color: var(--primary-font-color);
+    --secundary-font-color: var(--secundary-font-color);
+}
+
 .cards-cardapio {
     width: 100%;
     height: 60vh;
     margin-top: 10vh;
     display: flex;
-    background-image: url(./back-cardapio-white.png);
+    background-image: var(--primary-bg-white-image);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,7 +22,7 @@
     .col-6-img {
         width: 50%;
         height: 100%;
-        background-image: url(./back-cardapio.png);
+        background-image: var(--primary-bg-image);
 
         .text {
             width: 50%;
@@ -24,25 +35,18 @@
                 width: 459.59px;
                 height: 92px;
                 text-align: left;
-                font-family: 'Lilita One';
+                font-family: var(--font);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 35px;
                 line-height: 46px;
-                /* or 110% */
-
                 text-transform: uppercase;
-
                 color: #3B200B;
 
                 .spn-text {
                     width: 259.08px;
                     height: 46.29px;
-
                     top: 1673.04px;
-
-                    /* $yellow */
-
                     background: #F59A1B;
                     border-radius: 8.27974px;
                 }
@@ -54,19 +58,11 @@
                 height: 45px;
                 margin-top: 2vh;
                 text-align: left;
-
-                /* T-16 */
-
-                font-family: 'Lato';
+                font-family: var(--secundary-font);
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 22px;
-                /* or 140% */
-
-
-                /* Texto */
-
                 color: rgba(29, 6, 5, 0.69);
             }
 
@@ -79,9 +75,6 @@
                 margin-top: 5vh;
                 width: 220px;
                 height: 43.86px;
-
-                /* $red */
-
                 background: #F43127;
                 border: none;
                 border-radius: 5.21535px;
@@ -90,20 +83,13 @@
                     width: 100%;
                     height: 23px;
                     text-decoration: none;
-                    font-family: 'Lato';
+                    font-family: var(--secundary-font);
                     font-style: normal;
                     font-weight: 700;
                     font-size: 16px;
                     line-height: 22px;
-                    /* identical to box height, or 140% */
-
                     text-align: center;
-
                     color: #FFFFFF;
-
-
-                    /* Inside auto layout */
-
                     flex: none;
                     order: 0;
                     flex-grow: 0;
@@ -111,8 +97,6 @@
             }
 
         }
-
-
     }
 
     .col-6 {
@@ -143,18 +127,12 @@
                         height: auto;
                         text-align: left;
                         top: 1568.36px;
-
-                        /* H3-20 */
-
-                        font-family: 'Lilita One';
+                        font-family: var(--font);
                         font-style: normal;
                         font-weight: 400;
                         font-size: 20px;
                         line-height: 22px;
-                        /* identical to box height, or 110% */
-
                         text-transform: uppercase;
-
                         color: #FAE4D0;
                     }
 
@@ -163,16 +141,11 @@
                         height: 45px;
                         top: 1594.36px;
                         text-align: left;
-                        /* T-16 */
-
-                        font-family: 'Lato';
+                        font-family: var(--secundary-font);
                         font-style: normal;
                         font-weight: 400;
                         font-size: 16px;
                         line-height: 22px;
-                        /* or 140% */
-
-
                         color: rgba(255, 255, 255, 0.9);
                     }
                 }
@@ -188,19 +161,12 @@
             margin-left: 5vh;
             margin-top: 5vh;
             text-align: left;
-            /* H1-32 */
-
-            font-family: 'Lilita One';
+            font-family: var(--font);
             font-style: normal;
             font-weight: 400;
             font-size: 25px;
             line-height: 35px;
-            /* identical to box height, or 110% */
-
             text-transform: uppercase;
-
-            /* $yellow */
-
             color: #F59A1B;
 
         }
@@ -239,7 +205,6 @@
 
             .container {
 
-
                 ul {
 
                     li {
@@ -258,12 +223,12 @@
 
 @media (max-width: 1024px) {
     .cards-cardapio {
-        background-color: #3B200B;
+        background-color: var(--primary-bg-color);
 
 
         .col-6-img {
             height: 100%;
-            background-image: url(./back-cardapio-white.png);
+            background-image: var(--primary-bg-white-image);
 
             .text {
                 width: 80%;
@@ -330,7 +295,7 @@
 
     .cards-cardapio {
         .col-6-img {
-            background-image: url(./back-cardapio-white.png);
+            background-image: var(--primary-bg-white-image);
         }
     }
 }
@@ -422,7 +387,7 @@
             width: 100%;
             height: 90vh;
             margin-top: 0vh;
-            background-color: #3B200B;
+            background-color: var(--primary-bg-color);
 
             h2 {
                 width: 80%;
