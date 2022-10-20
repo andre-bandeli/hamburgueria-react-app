@@ -2,7 +2,6 @@
 
     width: 100%;
     height: 70vh;
-    margin-top: 0vh;
 
 
     .container {
@@ -13,35 +12,32 @@
         display: flex;
 
         .box-imagem {
-            width: 40%;
-            height: 308.15px;
+            width: 50%;
+            height: 100%;
             margin-left: 10vh;
-            margin-top: 10vh;
 
             img {
-                width: 100%;
-                height: 535.65px;
+                width: 90%;
+                height: 90%;
                 margin-left: 0vh;
-                margin-top: -15vh;
             }
         }
 
         .box-text {
-            width: 40%;
+            width: 50%;
             height: 100%;
 
             h2 {
                 width: 267px;
                 height: 36px;
                 margin-left: 5vh;
-                /* H1-32 */
+                margin-top: 7vh;
 
                 font-family: 'Lilita One';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 32px;
                 line-height: 35px;
-                /* identical to box height, or 110% */
 
                 text-transform: uppercase;
 
@@ -53,7 +49,6 @@
                     width: 339.43px;
                     height: 46.29px;
                     left: 966.92px;
-                    top: 2314.74px;
 
                     /* $yellow */
 
@@ -66,7 +61,7 @@
             .box {
                 width: 70%;
                 margin-left: 5vh;
-                width: 569.44px;
+                width: 80%;
                 height: 90px;
                 left: 974.06px;
                 margin-top: .5vh;
@@ -146,7 +141,7 @@
 
 
     .card-entrega {
-        margin-top: 20vh;
+        margin-top: 0vh;
 
         .container {
             width: 100%;
@@ -154,15 +149,20 @@
 
 
             .box-imagem {
-                margin-left: 5vh;
-                margin-right: auto;
+                width: 50%;
+                height: 100%;
+                margin-top: 0vh;
+                margin-left: 0vh;
+                
+                img {
+                    width: 100%;
+                }
 
-                img {}
             }
 
             .box-text {
-                margin: auto;
-                margin-left: -20vh;
+                width: 50%;
+
 
                 h2 {
 
@@ -171,6 +171,9 @@
                 }
 
                 .box {
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 1vh;
 
                     .icone {
 
@@ -198,81 +201,27 @@
 @media (max-width: 1024px) {
 
     .card-entrega {
-
+        height: auto;
         .container {
             width: 100%;
 
             .box-imagem {
-                width: 60%;
-                margin-left: 5vh;
+                width: 50%;
+                margin-left: 0vh;
 
                 img {}
             }
 
             .box-text {
-                width: 70%;
+                width: 50%;
                 margin-left: auto;
 
                 h2 {
-
-                    span {}
-
-                }
-
-                .box {
-                    width: 80%;
-
-                    .icone {
-
-
-                        img {}
-                    }
-
-                    .text {
-
-
-                        h2 {}
-
-                        h3 {}
-                    }
-                }
-            }
-        }
-
-    }
-}
-
-@media (max-width: 768px) {
-
-    .card-entrega {
-
-        .container {
-            width: 90%;
-
-            .box-imagem {
-
-                margin-left: 0vh;
-
-                img {
-                    width: 250px;
-                    height: 350px;
-                    margin-top: -10vh;
-                    margin-left: 0vh;
-                }
-            }
-
-            .box-text {
-
-                width: 100%;
-
-                h2 {
-
-                    span {}
+                    margin-left: 2.5vh;
 
                 }
 
                 .box {
-                    width: 90%;
 
                     .icone {
 
@@ -297,22 +246,23 @@
 @media (max-width: 550px) {
 
     .card-entrega {
-        height: 100vh;
+        height: auto;
         margin-top: 0vh;
 
         .container {
+            width: 90%;
             display: inline-block;
 
             .box-imagem {
-                width: 90%;
-                height: 35vh;
+                width: 100%;
+                height: 70%;
                 margin: auto;
 
                 img {
                     width: 100%;
                     height: 100%;
-                    margin-left: -5vh;
-                    margin-top: -12vh;
+                    margin-left: 0vh;
+                    margin-top: 0vh;
                     left: 0;
                 }
             }
@@ -340,7 +290,77 @@
                     .icone {
 
 
-                        img {}
+                        img {
+                            margin-top: 1vh;
+                        }
+                    }
+
+                    .text {
+
+
+                        h2 {
+                            margin-top: 2vh;
+                        }
+
+                        h3 {
+                            width: 80%;
+                            margin-top: .5vh;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+@media (max-width: 300px) {
+
+    .card-entrega {
+        height: auto;
+
+        .container {
+            width: 100%;
+           
+
+            .box-imagem {
+               
+
+                img {
+                
+                }
+            }
+
+            .box-text {
+                width: 100%;
+                margin: auto;
+                margin-top: 5vh;
+
+                h2 {
+                    margin-left: 0vh;
+                    width: 100%;
+                    height: 7vh;
+                    text-align: center;
+                    margin: auto;
+
+                    span {}
+
+                }
+
+                .box {
+                    width: 95%;
+                    margin: auto;
+                    margin-top: .5vh;
+
+                    .icone {
+
+
+                        img {
+                            width: 40px;
+                            margin-top: 2.5vh;
+                        }
                     }
 
                     .text {

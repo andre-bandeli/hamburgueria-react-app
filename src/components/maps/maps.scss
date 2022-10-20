@@ -56,3 +56,11 @@
         height: 30vh;
     }
 }
+
+@media (max-width: 550px) {
+    .maps {
+        h3 {
+            margin-top: 10vh;
+        }
+    }
+}

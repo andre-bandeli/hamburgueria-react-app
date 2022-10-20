@@ -67,7 +67,7 @@
 
     /* $title-black-60 */
 
-    color: #635352;
+    color: #917a78;
 }
 
 
@@ -230,6 +230,7 @@
     .Navbar {
         width: 100%;
         height: 13vh;
+        position: fixed;
     }
 
     .Navbar .Navgation {
@@ -275,19 +276,20 @@
     .Navbar .mob {
         height: 100vh;
         width: 90%;
-        top: 10vh;
+        top: 12vh;
         position: fixed;
         display: inline;
         text-align: left;
         margin-left: 0vh;
-        background-color: rgba(37, 192, 231, 0.938);
+        border-top-right-radius: 25px;
+        background-color: rgba(1, 32, 53, 0.952);
     }
 
     .Navbar .mob li {
         margin: auto;
         width: 100%;
         margin-top: 12%;
-        margin-left: 0vh;
+        margin-left: 5vh;
         font-size: 22px;
         visibility: visible;
     }
