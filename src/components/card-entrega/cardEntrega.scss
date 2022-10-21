@@ -179,6 +179,13 @@
     }
 }
 
+
+@media (max-width:1024px) and (max-height: 600px) {
+    .card-entrega {
+        height: 80vh;
+    }
+}
+
 @media (max-width: 768px) {
 
     .card-entrega {

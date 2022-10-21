@@ -131,6 +131,14 @@
     }
 }
 
+@media (max-width:1024px) and (max-height: 600px) {
+    .publicacoes {
+        height: 130vh;
+        margin-top: 20vh;
+    }
+}
+
+
 @media (max-width: 768px) {
 
     .publicacoes {
