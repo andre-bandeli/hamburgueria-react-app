@@ -236,12 +236,34 @@
 
         .container {
             .inicial-text {
-                margin-top: 20vh;
+                margin-top: 15vh;
             }
         }
 
         .container-bx {
+            width: 70%;
             margin-top: 3vh;
+
+            .box {
+                .icon {
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                .text {
+                    h2 {
+                        margin-top: 2vh;
+                        font-size: 15px;
+                    }
+                    h3 {
+                        margin-top: 0vh;
+                    }
+                    
+                }
+            }
+
+           
         }
     }
 }
@@ -278,14 +300,22 @@
                 border-bottom: 1px solid rgba(0, 0, 0, 0.459);
                 border-right: none;
                 padding: 15px;
-
+                margin-bottom: 1vh;
+                .icon {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        margin-top: 1vh;
+                    }
+                }
 
 
                 .text {
                     h2 {
                         width: auto;
+                        font-size: 22px;
                         margin-left: 2vh;
-                        margin-top: 2vh;
+                        margin-top: 1vh;
                     }
 
                     h3 {
@@ -330,11 +360,23 @@
             }
 
         }
-
         .container-bx {
-            width: 80%;
+
+
+            .box {
+        
+                .text {
+                    h2 {
+                       font-size: 18px;
+                    }
+                    h3 {
+                        font-size: 15px;
+                    }
+                }
+            }
         }
     }
+    
 }
 
 /* media: 300px */
@@ -342,12 +384,37 @@
 
     .header {
         .container {
+
             .inicial-text {
 
                 h1 {
                     font-size: 50px;
                 }
             }
+        }
+        .container-bx {
+            width: 95%;
+            .box {
+                .icon {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                .text {
+
+                    h2 {
+                        margin-left: 1vh;
+                        font-size: 15px;
+                    }
+                    h3 {
+                        margin-left: 1vh;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+          
         }
     }
 }

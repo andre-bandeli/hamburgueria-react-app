@@ -232,6 +232,34 @@
     }
 }
 
+@media (max-width: 768px){
+
+    .cards-funcionamento {
+        height: 35vh;
+
+        .container {
+            height: 20vh;
+            
+            .col-6-red {
+                .text {
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+
+                .img {
+                    img {
+                        width: 70px;
+                        margin-top: 4.5vh;
+                    }
+                }
+              
+            }
+        }
+    }
+}
+
+
 @media (max-width: 550px) {
 
     .cards-funcionamento {
