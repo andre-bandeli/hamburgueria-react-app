@@ -13,7 +13,6 @@ Este é um projeto para estudos, desenvolvido através do template disponibiliza
 
 ### Instalação
 
-
 Crie uma pasta e clone o projeto. Certifique-se de ter insdtalado em sua máquina o Node e o React (https://pt-br.reactjs.org/).
 Caminhe até a pasta onde encontra-se a raíz do projeto (odonto > 'src', 'public', etc) e instale os pacotes necessários. Em seguida, execute o comando para iniciar a aplicação react.
 
